@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Custom)(type Legacy)(uri ${KIPRJMOD}/librairies/Custom.lib)(options "")(descr ""))
+  (lib (name XC95288XL-10TQ144I)(type Legacy)(uri ${KIPRJMOD}/librairies/XC95288XL-10TQ144I.lib)(options "")(descr ""))
+)
