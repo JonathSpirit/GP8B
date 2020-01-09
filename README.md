@@ -1,13 +1,18 @@
 # GP8B Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
-## Version list
+## Versions list
 
-GP8B_V4
+Actual version :
+> GP8B_V4
 
 ## Block diagram
 
+[Block diagram](document/Block diagram.pdf)
+
 ## Instruction sets
+
+## Connection standard
 
 ## Mechanical standard
 
