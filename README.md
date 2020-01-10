@@ -15,11 +15,11 @@ Actual version :
 ## Instruction sets
 8bits instuction is separated in 2 category :
 ```
--------------- Opcode
-|||||
-||||| -------- Number selection
-||||| |||
-00000 000
+-------------- Number selection
+|||  
+||| ---------- Opcode
+||| |||||
+000 00000
 ```
 **5bits for opcode :**
 ```
