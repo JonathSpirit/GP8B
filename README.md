@@ -1,6 +1,8 @@
 # GP8B Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
+Copyright (C) 2020 Guillaume Guillet
+
 ## Versions list
 
 Actual version :
