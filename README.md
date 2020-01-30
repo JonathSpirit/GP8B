@@ -10,7 +10,7 @@ Actual version :
 
 [Block diagram file](document/Block%20diagram.pdf)
 
-![Image of diagram](images/diagram.png)
+<img src="images/diagram.png" alt="Image of diagram" width="600"/>
 
 ## Instruction sets
 8bits instuction is separated in 2 category :
@@ -60,14 +60,11 @@ Actual version :
 0x7 = EXT_2
 ```
 
-## Connection standard
-*WIP*
-
-## Mechanical standard
-*WIP*
+## Processor standard
+This processor, follow the [SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 ## Compatibility
-*WIP*
+Compatible with all motherboard following the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 ## Documents
 [Block diagram file](document/Block%20diagram.pdf)
