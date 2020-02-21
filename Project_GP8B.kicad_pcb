@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 30)
     (tracks 4985)
     (zones 0)
     (modules 96)
@@ -5860,6 +5860,9 @@
     )
   )
 
+  (gr_text "Licensed under CERN OHL v.1.2" (at 170.3 122) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "ALU - Unused pins" (at 108.5 114.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
