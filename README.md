@@ -94,4 +94,6 @@ Compatible with all motherboard following the [MOM1_SPS1](https://github.com/Jon
 ## Documents
 [Block diagram file](document/Block%20diagram.pdf)
 
+[Schematics (.pdf)](document/GP8B_schematics.pdf)
+
 *WIP*
