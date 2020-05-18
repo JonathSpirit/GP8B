@@ -29,7 +29,7 @@ G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 ## Versions list
 
 Actual version :
-> GP8B_V4
+> GP8B_V5.0
 
 ## Block diagram
 
