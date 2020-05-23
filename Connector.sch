@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Project_GP8B-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 5 8
 Title "GP8B"
 Date "2019-05-12"
-Rev "V4"
+Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
 Comment2 "Licensed under CERN OHL v.1.2"
@@ -1057,6 +1056,8 @@ Wire Wire Line
 	5550 3800 6550 3800
 Wire Wire Line
 	6550 3800 6550 3650
+Text Label 5550 3800 0    60   ~ 0
+FEEDBACK
 Wire Bus Line
 	5200 1100 5200 1750
 Wire Bus Line
@@ -1073,6 +1074,4 @@ Wire Bus Line
 	9850 3900 9850 4700
 Wire Bus Line
 	1600 3100 1600 5550
-Text Label 5550 3800 0    60   ~ 0
-FEEDBACK
 $EndSCHEMATC

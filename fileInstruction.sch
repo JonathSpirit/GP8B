@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Project_GP8B-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 7 8
 Title "GP8B"
 Date "2019-05-12"
-Rev "V4"
+Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
 Comment2 "Licensed under CERN OHL v.1.2"
@@ -186,37 +185,37 @@ $EndComp
 $Comp
 L power:+5V #PWR027
 U 1 1 5AC1118C
-P 9400 5000
-F 0 "#PWR027" H 9400 4850 50  0001 C CNN
-F 1 "+5V" H 9400 5140 50  0000 C CNN
-F 2 "" H 9400 5000 50  0001 C CNN
-F 3 "" H 9400 5000 50  0001 C CNN
-	1    9400 5000
+P 8800 4800
+F 0 "#PWR027" H 8800 4650 50  0001 C CNN
+F 1 "+5V" H 8800 4940 50  0000 C CNN
+F 2 "" H 8800 4800 50  0001 C CNN
+F 3 "" H 8800 4800 50  0001 C CNN
+	1    8800 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C13
 U 1 1 5AC11192
-P 9150 5050
-F 0 "C13" H 9175 5150 50  0000 L CNN
-F 1 "10nF" H 9175 4950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9188 4900 50  0001 C CNN
-F 3 "" H 9150 5050 50  0001 C CNN
-	1    9150 5050
+P 8550 4850
+F 0 "C13" H 8575 4950 50  0000 L CNN
+F 1 "10nF" H 8575 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 4700 50  0001 C CNN
+F 3 "" H 8550 4850 50  0001 C CNN
+	1    8550 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5AC11199
-P 9400 6300
-F 0 "#PWR028" H 9400 6050 50  0001 C CNN
-F 1 "GND" H 9400 6150 50  0000 C CNN
-F 2 "" H 9400 6300 50  0001 C CNN
-F 3 "" H 9400 6300 50  0001 C CNN
-	1    9400 6300
+P 8800 6300
+F 0 "#PWR028" H 8800 6050 50  0001 C CNN
+F 1 "GND" H 8800 6150 50  0000 C CNN
+F 2 "" H 8800 6300 50  0001 C CNN
+F 3 "" H 8800 6300 50  0001 C CNN
+	1    8800 6300
 	1    0    0    -1  
 $EndComp
-Text Label 10400 5350 2    60   ~ 0
+Text Label 9750 5300 2    60   ~ 0
 NEXT_IF
 Text Label 6400 1850 2    60   ~ 0
 I_BJMPSRC1_CLK
@@ -239,53 +238,53 @@ I_OPC_CLK
 $Comp
 L power:+5V #PWR029
 U 1 1 5AC111FF
-P 8800 2750
-F 0 "#PWR029" H 8800 2600 50  0001 C CNN
-F 1 "+5V" H 8800 2890 50  0000 C CNN
-F 2 "" H 8800 2750 50  0001 C CNN
-F 3 "" H 8800 2750 50  0001 C CNN
-	1    8800 2750
+P 8800 2700
+F 0 "#PWR029" H 8800 2550 50  0001 C CNN
+F 1 "+5V" H 8800 2840 50  0000 C CNN
+F 2 "" H 8800 2700 50  0001 C CNN
+F 3 "" H 8800 2700 50  0001 C CNN
+	1    8800 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C11
 U 1 1 5AC11205
-P 8550 2800
-F 0 "C11" H 8575 2900 50  0000 L CNN
-F 1 "10nF" H 8575 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 2650 50  0001 C CNN
-F 3 "" H 8550 2800 50  0001 C CNN
-	1    8550 2800
+P 8550 2750
+F 0 "C11" H 8575 2850 50  0000 L CNN
+F 1 "10nF" H 8575 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 2600 50  0001 C CNN
+F 3 "" H 8550 2750 50  0001 C CNN
+	1    8550 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR030
 U 1 1 5AC1120C
-P 8800 4050
-F 0 "#PWR030" H 8800 3800 50  0001 C CNN
-F 1 "GND" H 8800 3900 50  0000 C CNN
-F 2 "" H 8800 4050 50  0001 C CNN
-F 3 "" H 8800 4050 50  0001 C CNN
-	1    8800 4050
+P 8800 4200
+F 0 "#PWR030" H 8800 3950 50  0001 C CNN
+F 1 "GND" H 8800 4050 50  0000 C CNN
+F 2 "" H 8800 4200 50  0001 C CNN
+F 3 "" H 8800 4200 50  0001 C CNN
+	1    8800 4200
 	1    0    0    -1  
 $EndComp
-Text Label 8800 5700 2    60   ~ 0
+Text Label 8300 5600 2    60   ~ 0
 I_IF
-Text Label 8800 5900 2    60   ~ 0
+Text Label 8300 5800 2    60   ~ 0
 I_IFNOT
-Text Label 8800 5800 2    60   ~ 0
+Text Label 8300 5700 2    60   ~ 0
 IF_RESULT
-Text Label 8800 6000 2    60   ~ 0
+Text Label 8300 5900 2    60   ~ 0
 ~IF_RESULT
-Text Label 10400 5550 2    60   ~ 0
+Text Label 9750 5500 2    60   ~ 0
 NEXT_IFNOT
-Text Label 10000 5750 0    60   ~ 0
+Text Label 9300 5700 0    60   ~ 0
 IF_VALID
-Text Label 10000 5950 0    60   ~ 0
+Text Label 9300 5900 0    60   ~ 0
 IFNOT_VALID
-Text Label 8800 5300 2    60   ~ 0
+Text Label 8300 5200 2    60   ~ 0
 IF_VALID
-Text Label 8800 5500 2    60   ~ 0
+Text Label 8300 5400 2    60   ~ 0
 IFNOT_VALID
 Text HLabel 1450 7350 0    60   Input ~ 0
 GLOBAL_CLK
@@ -315,9 +314,9 @@ Text HLabel 6450 1850 2    60   Output ~ 0
 BJMPSRC1_CLK
 Text HLabel 6450 1750 2    60   Output ~ 0
 PERIPHERAL_CLK
-Text HLabel 10450 5350 2    60   Output ~ 0
+Text HLabel 9800 5300 2    60   Output ~ 0
 NEXT_IF
-Text HLabel 10450 5550 2    60   Output ~ 0
+Text HLabel 9800 5500 2    60   Output ~ 0
 NEXT_IFNOT
 Text HLabel 10300 4150 2    60   Output ~ 0
 END_MAXCOUNT
@@ -339,9 +338,9 @@ Text HLabel 10300 4550 2    60   Output ~ 0
 NUM_SELECT_1
 Text Label 9550 1350 0    60   ~ 0
 I_RAMW
-Text Label 8200 3050 2    60   ~ 0
+Text Label 8300 3100 2    60   ~ 0
 I_RAMW
-Text Label 8200 3150 2    60   ~ 0
+Text Label 8300 3200 2    60   ~ 0
 COUNTER_2
 $Comp
 L power:+5V #PWR031
@@ -376,23 +375,23 @@ F 3 "" H 8750 950 50  0001 C CNN
 	1    8750 950 
 	0    -1   -1   0   
 $EndComp
-Text Label 8200 3250 2    60   ~ 0
+Text Label 8300 3300 2    60   ~ 0
 I_RAMW
-Text Label 8200 3350 2    60   ~ 0
+Text Label 8300 3400 2    60   ~ 0
 COUNTER_4
-Text Label 10150 3100 2    60   ~ 0
+Text Label 10050 3200 2    60   ~ 0
 I_BRAMDATA_CLK
-Text Label 10150 3300 2    60   ~ 0
+Text Label 10050 3400 2    60   ~ 0
 I_RAMWRITE_CLK
 NoConn ~ 9550 1850
-Text HLabel 10200 3100 2    60   Output ~ 0
+Text HLabel 10100 3200 2    60   Output ~ 0
 BRAMDATA_CLK
-Text HLabel 10200 3300 2    60   Output ~ 0
+Text HLabel 10100 3400 2    60   Output ~ 0
 RAMWRITE_CLK
 Wire Wire Line
-	9400 3100 10200 3100
+	9300 3200 10100 3200
 Wire Wire Line
-	9400 3300 10200 3300
+	9300 3400 10100 3400
 Wire Wire Line
 	8600 950  7650 950 
 Wire Wire Line
@@ -401,26 +400,6 @@ Connection ~ 9000 2050
 Connection ~ 9000 950 
 Wire Wire Line
 	9000 900  9000 950 
-Wire Wire Line
-	8700 2800 8800 2800
-Connection ~ 9400 6200
-Wire Wire Line
-	8250 6200 9400 6200
-Wire Wire Line
-	9000 5050 8250 5050
-Wire Wire Line
-	9300 5050 9400 5050
-Connection ~ 8800 4000
-Connection ~ 8800 2800
-Wire Wire Line
-	8800 2750 8800 2800
-Wire Wire Line
-	8800 3850 8800 4000
-Connection ~ 9400 5050
-Wire Wire Line
-	9400 5000 9400 5050
-Wire Wire Line
-	9400 6100 9400 6200
 Wire Wire Line
 	3800 2050 5150 2050
 Connection ~ 5150 3900
@@ -473,9 +452,9 @@ Wire Wire Line
 	2750 7500 2800 7500
 Wire Wire Line
 	2750 7600 2800 7600
-Text Label 10150 2900 2    60   ~ 0
+Text Label 10050 2900 2    60   ~ 0
 I_RAMW
-Text HLabel 10200 2900 2    60   Output ~ 0
+Text HLabel 10100 2900 2    60   Output ~ 0
 RAM_OE_CONTROL
 Text Notes 5950 6550 0    60   ~ 0
 Instruction 5bit :\n0x00 = BWRITE1_CLK\n0x01 = BWRITE2_CLK\n0x02 = BPCS_CLK\n0x03 = OPLEFT_CLK\n0x04 = OPRIGHT_CLK\n0x05 = OPC_CLK\n0x06 = PERIPHERAL_CLK\n0x07 = BJMPSRC1_CLK\n0x08 = BJMPSRC2_CLK\n0x09 = BJMPSRC3_CLK\n0x0A = JMPSRC_CLK\n0x0B = BRAMADD1_CLK\n0x0C = BRAMADD2_CLK\n0x0D = SPI_CLK\n0x0E = BSPI_CLK\n0x0F = STICK\n0x10 = IF\n0x11 = IFNOT\n0x12 = RAMW\n0x13 = UOP\n0x14 = UOP\n0x15 = UOP\n0x16 = UOP\n0x17 = LTICK
@@ -520,25 +499,21 @@ NoConn ~ 9550 1750
 NoConn ~ 9550 1650
 NoConn ~ 9550 1550
 NoConn ~ 9550 1450
-Text Label 8800 5400 2    60   ~ 0
+Text Label 8300 5300 2    60   ~ 0
 COUNTER_2
-Text Label 8800 5600 2    60   ~ 0
+Text Label 8300 5500 2    60   ~ 0
 COUNTER_2
 Text Label 10250 4150 2    60   ~ 0
 COUNTER_4
-Wire Wire Line
-	7450 2800 8400 2800
-Wire Wire Line
-	7450 4000 8100 4000
 Text Label 10250 4650 2    60   ~ 0
 NUM_SELECT_2
 Text HLabel 10300 4650 2    60   Output ~ 0
 NUM_SELECT_2
 Text Label 4000 5750 2    60   ~ 0
 INSTRUCTION_B5
-Text HLabel 10200 3500 2    60   Output ~ 0
+Text HLabel 10100 3600 2    60   Output ~ 0
 END_ISIMPLE
-Text Label 10150 3500 2    60   ~ 0
+Text Label 10050 3600 2    60   ~ 0
 END_ISIMPLE
 Text Notes 2600 1600 0    60   ~ 0
 COUNTER_5
@@ -559,26 +534,22 @@ Text Label 4600 1450 2    60   ~ 0
 COUNTER_2
 Text Label 4550 5750 0    60   ~ 0
 ~INSTRUCTION_B5
-Text Label 8200 3450 2    60   ~ 0
+Text Label 8300 3500 2    60   ~ 0
 ~INSTRUCTION_B5
-Text Label 8200 3550 2    60   ~ 0
+Text Label 8300 3600 2    60   ~ 0
 COUNTER_2
-Wire Wire Line
-	7450 4000 7450 2800
 Text Label 2700 3000 0    60   ~ 0
 COUNTER_4
 Text Notes 2600 1500 0    60   ~ 0
 COUNTER_4
 NoConn ~ 2550 1500
 Wire Wire Line
-	8200 3750 8100 3750
+	8300 3800 8200 3800
 Wire Wire Line
-	8100 3650 8100 3750
-Connection ~ 8100 4000
+	8200 3700 8200 3800
 Wire Wire Line
-	8100 3650 8200 3650
-Connection ~ 8100 3750
-NoConn ~ 9400 3700
+	8200 3700 8300 3700
+NoConn ~ 9300 3800
 Text Notes 2600 1400 0    60   ~ 0
 COUNTER_3
 NoConn ~ 2550 1400
@@ -603,25 +574,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 4650 10300 4650
 Wire Wire Line
-	10150 2900 10200 2900
+	10050 2900 10100 2900
 Wire Wire Line
 	9000 2050 9000 2100
-Wire Wire Line
-	9400 6200 9400 6300
-Wire Wire Line
-	8800 4000 8800 4050
-Wire Wire Line
-	8800 2800 8800 2950
-Wire Wire Line
-	9400 5050 9400 5200
 Wire Wire Line
 	5150 3900 5150 3950
 Wire Wire Line
 	5150 2050 5150 2100
-Wire Wire Line
-	8100 4000 8800 4000
-Wire Wire Line
-	8100 3750 8100 4000
 $Comp
 L 74xx_IEEE:74HC238 U15
 U 1 1 5CD47191
@@ -910,6 +869,8 @@ $Comp
 L Custom:74AHC08 U14
 U 1 1 5D0B26DE
 P 8800 3400
+AR Path="/5D0B26DE" Ref="U14"  Part="1" 
+AR Path="/5ABE9197/5D0B26DE" Ref="U14"  Part="1" 
 F 0 "U14" H 8950 4000 50  0000 C CNN
 F 1 "74AHC08" H 9050 3900 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8800 3400 50  0001 C CNN
@@ -920,16 +881,16 @@ $EndComp
 $Comp
 L Custom:74AHC08 U16
 U 1 1 5D0B7572
-P 9400 5650
-F 0 "U16" H 9550 6250 50  0000 C CNN
-F 1 "74AHC08" H 9650 6150 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9400 5650 50  0001 C CNN
-F 3 "" H 9400 5650 50  0000 C CNN
-	1    9400 5650
+P 8800 5500
+AR Path="/5D0B7572" Ref="U16"  Part="1" 
+AR Path="/5ABE9197/5D0B7572" Ref="U16"  Part="1" 
+F 0 "U16" H 8950 6100 50  0000 C CNN
+F 1 "74AHC08" H 9050 6000 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8800 5500 50  0001 C CNN
+F 3 "" H 8800 5500 50  0000 C CNN
+	1    8800 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 5050 8250 6200
 Text Label 1500 3400 2    60   ~ 0
 PROCESSOR_PAUSE
 Wire Wire Line
@@ -1070,7 +1031,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3000 6450 3000
 Wire Wire Line
-	9400 3500 10200 3500
+	9300 3600 10100 3600
 Wire Wire Line
 	5700 3600 6450 3600
 Wire Wire Line
@@ -1083,10 +1044,6 @@ Wire Wire Line
 	5700 3100 6450 3100
 Wire Wire Line
 	5700 3200 6450 3200
-Wire Wire Line
-	10000 5350 10450 5350
-Wire Wire Line
-	10000 5550 10450 5550
 $Comp
 L 74xx:74AHCT273 U7
 U 1 1 5CF8D93F
@@ -1098,6 +1055,52 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 1750 
 	1    1750 5400
 	1    0    0    -1  
 $EndComp
+Connection ~ 8200 3800
+Wire Wire Line
+	8800 4100 8800 4150
+Wire Wire Line
+	8800 4150 8200 4150
+Connection ~ 8800 4150
+Wire Wire Line
+	8800 4150 8800 4200
+Wire Wire Line
+	8200 3800 8200 4150
+Connection ~ 8200 4150
+Wire Wire Line
+	8200 4150 7500 4150
+Wire Wire Line
+	8800 2700 8800 2750
+Wire Wire Line
+	8700 2750 8800 2750
+Connection ~ 8800 2750
+Wire Wire Line
+	8800 2750 8800 2800
+Wire Wire Line
+	8400 2750 7500 2750
+Wire Wire Line
+	7500 2750 7500 4150
+Wire Wire Line
+	8800 4900 8800 4850
+Wire Wire Line
+	8800 4850 8700 4850
+Connection ~ 8800 4850
+Wire Wire Line
+	8800 4850 8800 4800
+Wire Wire Line
+	8400 4850 7650 4850
+Wire Wire Line
+	8800 6300 8800 6250
+Wire Wire Line
+	8800 6250 7650 6250
+Wire Wire Line
+	7650 4850 7650 6250
+Connection ~ 8800 6250
+Wire Wire Line
+	8800 6250 8800 6200
+Wire Wire Line
+	9300 5300 9800 5300
+Wire Wire Line
+	9300 5500 9800 5500
 Wire Bus Line
 	2650 6700 2650 7500
 $EndSCHEMATC

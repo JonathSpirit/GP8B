@@ -1,0 +1,14 @@
+GP8B V4.0 :
+	- Intial release
+	
+GP8B V5.0 :
+- DOCUMENTS
+	- Adding the GP8B datasheet
+	- Adding waveforms
+	- Adding the CHANGELOG file
+	
+- SCHEMATICS 
+	- Small symbols changes
+	- Removing old symbols
+	- Adding TPS7A0518PDBZR symbol
+	- Set version to 5.0
