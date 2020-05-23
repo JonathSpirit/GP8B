@@ -24,3 +24,4 @@ GP8B V5.0 :
 	- Adding a new connector for all the ALU pins (J5)
 	- All capacitor for the CPLD is now 100nF
 	- Renamed some connectors
+	- Adding VREF (3.3V) to the JTAG connector
