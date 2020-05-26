@@ -14,6 +14,8 @@ GP8B V5.0 :
 	- Small symbols changes
 	- Removing old symbols
 	- Adding TPS7A0518PDBZR symbol
+	- Adding SN74LVC8T245DW symbol
+	- Adding SN74AVC4T245D symbol
 	- Set version to 5.0
 	
 - SCHEMATICS FEATURES
@@ -28,3 +30,4 @@ GP8B V5.0 :
 	- All capacitor for the CPLD is now 100nF
 	- Renamed some connectors
 	- Adding VREF (3.3V) to the JTAG connector
+	- Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD

@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN74AVC4T245D
+D 4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOIC-16
+K Noninverting Bidirectional
+F http://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf
+$ENDCMP
+#
+$CMP SN74LVC8T245DW
+D 8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOIC-24
+K Noninverting Bidirectional
+F http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf
+$ENDCMP
+#
 $CMP TE_Eurocard_96pole
 D TE
 K connector
