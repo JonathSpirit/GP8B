@@ -2,6 +2,9 @@ GP8B V4.0 :
 	- Intial release
 	
 GP8B V5.0 :
+- GLOBAL
+	- Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
+
 - DOCUMENTS
 	- Adding the GP8B datasheet
 	- Adding waveforms

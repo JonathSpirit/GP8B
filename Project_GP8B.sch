@@ -9,7 +9,7 @@ Date "2019-05-12"
 Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
-Comment2 "Licensed under CERN OHL v.1.2"
+Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1052,8 +1052,8 @@ Wire Wire Line
 	5650 6800 6150 6800
 Text Label 10350 5300 0    60   ~ 0
 BCSPI_CLK
-Text Notes 7550 6450 0    60   ~ 0
-This documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
+Text Notes 7500 6450 0    60   ~ 0
+This source describes Open Hardware and is licensed\nunder the CERN-OHL-W v2 or later. \n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,\nINCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR\nA PARTICULAR PURPOSE.\n\nPlease see the CERN-OHL-W v2 for applicable conditions. 
 Wire Bus Line
 	1700 2800 1700 3600
 $EndSCHEMATC

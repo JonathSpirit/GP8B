@@ -9,7 +9,7 @@ Date "2019-05-12"
 Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
-Comment2 "Licensed under CERN OHL v.1.2"
+Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr
