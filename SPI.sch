@@ -126,14 +126,6 @@ Text Label 5100 3500 2    60   ~ 0
 SPI_CLK
 Text Label 3650 2600 0    60   ~ 0
 SPI_CS
-Text Label 5100 2400 2    60   ~ 0
-NUMBER_0
-Text Label 5100 2500 2    60   ~ 0
-NUMBER_1
-Text Label 5100 2600 2    60   ~ 0
-NUMBER_2
-Text Label 5100 2700 2    60   ~ 0
-NUMBER_3
 Text Label 5100 2800 2    60   ~ 0
 NUMBER_4
 Text Label 5100 2900 2    60   ~ 0
@@ -285,32 +277,6 @@ Text Label 1500 1450 0    60   ~ 0
 SPI_MISO
 NoConn ~ 6100 2400
 NoConn ~ 8300 3200
-Wire Wire Line
-	2650 2700 2100 2700
-Connection ~ 2100 2700
-Wire Wire Line
-	2100 2700 2100 1950
-Wire Wire Line
-	2650 2800 2100 2800
-Connection ~ 2100 2800
-Wire Wire Line
-	2100 2800 2100 2700
-Wire Wire Line
-	2650 2900 2100 2900
-Wire Wire Line
-	2100 2800 2100 2900
-Connection ~ 2100 2900
-Wire Wire Line
-	2100 2900 2100 3000
-Wire Wire Line
-	2650 3000 2100 3000
-Connection ~ 2100 3000
-Wire Wire Line
-	2100 3000 2100 3300
-NoConn ~ 3650 3000
-NoConn ~ 3650 2900
-NoConn ~ 3650 2800
-NoConn ~ 3650 2700
 Text HLabel 1450 1450 0    60   Input ~ 0
 SPI_MISO
 Text HLabel 9500 1350 2    60   Output ~ 0
@@ -423,6 +389,32 @@ Text Label 5100 3300 2    60   ~ 0
 SPI_CFG_~PL
 Text Label 2650 3200 2    60   ~ 0
 BCSPI_CLK
+Wire Wire Line
+	2100 1950 2100 3300
+Text Label 2650 2700 2    60   ~ 0
+NUMBER_4
+Text Label 2650 2800 2    60   ~ 0
+NUMBER_5
+Text Label 2650 2900 2    60   ~ 0
+NUMBER_6
+Text Label 2650 3000 2    60   ~ 0
+NUMBER_7
+Text Label 3650 2700 0    60   ~ 0
+BUFF_0
+Text Label 3650 2800 0    60   ~ 0
+BUFF_1
+Text Label 3650 2900 0    60   ~ 0
+BUFF_2
+Text Label 3650 3000 0    60   ~ 0
+BUFF_3
+Text Label 5100 2400 2    60   ~ 0
+BUFF_0
+Text Label 5100 2500 2    60   ~ 0
+BUFF_1
+Text Label 5100 2600 2    60   ~ 0
+BUFF_2
+Text Label 5100 2700 2    60   ~ 0
+BUFF_3
 Wire Bus Line
 	1550 4750 1550 5550
 $EndSCHEMATC
