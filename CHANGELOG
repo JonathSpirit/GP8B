@@ -18,6 +18,10 @@ GP8B V5.0 :
 	- Adding SN74AVC4T245D symbol
 	- Set version to 5.0
 	
+- PCB
+	- Removing old footprints
+	- Set version to 5.0
+	
 - SCHEMATICS FEATURES
 	- Replacing the old XC95288XL-10TQ144 by XC2C256-VQ100
 		XC95288XL is a obsolete CPLD and is now replaced with
@@ -32,3 +36,4 @@ GP8B V5.0 :
 	- Adding VREF (3.3V) to the JTAG connector
 	- Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD
 	- Fix/Work-around for SPI (4bits only problem)
+	- Mounting holes is now on schematics
