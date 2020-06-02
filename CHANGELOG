@@ -31,3 +31,4 @@ GP8B V5.0 :
 	- Renamed some connectors
 	- Adding VREF (3.3V) to the JTAG connector
 	- Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD
+	- Fix/Work-around for SPI (4bits only problem)
