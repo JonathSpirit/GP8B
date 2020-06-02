@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title "GP8B"
 Date "2019-05-12"
 Rev "V5.0"

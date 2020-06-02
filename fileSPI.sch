@@ -68,14 +68,14 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DD64D25
-P 2100 3500
+P 1950 3500
 AR Path="/5ACA3361/5DD64D25" Ref="C?"  Part="1" 
 AR Path="/5DD53CC6/5DD64D25" Ref="C41"  Part="1" 
-F 0 "C41" H 2125 3600 50  0000 L CNN
-F 1 "10nF" H 2125 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2138 3350 50  0001 C CNN
-F 3 "" H 2100 3500 50  0001 C CNN
-	1    2100 3500
+F 0 "C41" H 1975 3600 50  0000 L CNN
+F 1 "10nF" H 1975 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1988 3350 50  0001 C CNN
+F 3 "" H 1950 3500 50  0001 C CNN
+	1    1950 3500
 	-1   0    0    1   
 $EndComp
 Text Label 2650 2300 2    60   ~ 0
@@ -109,15 +109,6 @@ Wire Wire Line
 Connection ~ 3150 3650
 Wire Wire Line
 	3150 3650 3150 3600
-Wire Wire Line
-	2100 3650 3150 3650
-Wire Wire Line
-	2100 3350 2100 3300
-Wire Wire Line
-	2100 1950 3150 1950
-Wire Wire Line
-	2650 3300 2100 3300
-Connection ~ 2100 3300
 Text Label 3650 2300 0    60   ~ 0
 SPI_CFG_~PL
 Text Label 3650 2500 0    60   ~ 0
@@ -296,11 +287,11 @@ Wire Wire Line
 Text Label 1500 1550 0    60   ~ 0
 SPI_CLK
 Text Label 1500 1650 0    60   ~ 0
-BCSPI_CLK
+BCFG_SPI_CLK
 Text HLabel 1450 1550 0    60   Input ~ 0
 SPI_CLK
 Text HLabel 1450 1650 0    60   Input ~ 0
-BCSPI_CLK
+BCFG_SPI_CLK
 Wire Wire Line
 	1450 1550 1500 1550
 Wire Wire Line
@@ -387,10 +378,6 @@ Text Label 7500 2500 2    60   ~ 0
 SPI_CLK
 Text Label 5100 3300 2    60   ~ 0
 SPI_CFG_~PL
-Text Label 2650 3200 2    60   ~ 0
-BCSPI_CLK
-Wire Wire Line
-	2100 1950 2100 3300
 Text Label 2650 2700 2    60   ~ 0
 NUMBER_4
 Text Label 2650 2800 2    60   ~ 0
@@ -415,6 +402,19 @@ Text Label 5100 2600 2    60   ~ 0
 BUFF_2
 Text Label 5100 2700 2    60   ~ 0
 BUFF_3
+Text Label 2650 3200 2    60   ~ 0
+BCFG_SPI_CLK
+Wire Wire Line
+	1950 3650 3150 3650
+Wire Wire Line
+	1950 3350 1950 3300
+Wire Wire Line
+	1950 1950 3150 1950
+Connection ~ 1950 3300
+Wire Wire Line
+	1950 3300 1950 1950
+Wire Wire Line
+	1950 3300 2650 3300
 Wire Bus Line
 	1550 4750 1550 5550
 $EndSCHEMATC

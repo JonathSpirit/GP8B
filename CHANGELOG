@@ -29,11 +29,20 @@ GP8B V5.0 :
 		the XC2C256-VQ100 is more hand-solder friendly too.
 		
 	- Adding the regulator TPS7A0518PDBZR for 1.8V (CPLD)
+	- Adding VREF (3.3V) to the JTAG connector
 	- Removing some unused pins and shrink the connector (J4) down
 	- Adding a new connector for all the ALU pins (J5)
 	- All capacitor for the CPLD is now 100nF
-	- Renamed some connectors
-	- Adding VREF (3.3V) to the JTAG connector
 	- Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD
+	
+	- Renamed some connectors
 	- Fix/Work-around for SPI (4bits only problem)
 	- Mounting holes is now on schematics
+	
+	- Renaming "OPC_CLK" to "OPCHOOSE_CLK"
+	- Renaming "BCSPI_CLK" to "BCFG_SPI_CLK"
+	
+	- Renaming "Connecteur" sheet to "Connector" and "Connector.sch" to "fileConnector.sch"
+	- Renaming "Registre" sheet to "Register" and "fileRegistre.sch" to "fileRegister.sch"
+	- Renaming "Ram.sch" to "fileRAM.sch"
+	- Renaming "SPI.sch" to "fileSPI.sch"

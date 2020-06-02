@@ -133,7 +133,7 @@ COUNTER_1
 Text Label 2550 1100 0    60   ~ 0
 COUNTER_0
 Text Notes 3850 7350 0    60   ~ 0
-COUNTER :\n0 = Sync bit\n1 = Instruction set with next\n2 = Instruction clock with END / IF_PULSE_1 / RAM_PULSE_1\n3 = Waiting\n4 = RAM_PULSE_2 with END / END / NEXT\n
+COUNTER :\n0 = Sync bit\n1 = Instruction set with next address\n2 = Simple instruction execution with END,\n     Complex instruction execution with next address\n3 = Waiting\n4 = RAM Write with END or END\n
 Text Label 9550 1150 0    60   ~ 0
 I_IF
 Text Label 9550 1250 0    60   ~ 0
@@ -234,7 +234,7 @@ I_OPLEFT_CLK
 Text Label 6400 1550 2    60   ~ 0
 I_OPRIGHT_CLK
 Text Label 6400 1650 2    60   ~ 0
-I_OPC_CLK
+I_OPCHOOSE_CLK
 $Comp
 L power:+5V #PWR029
 U 1 1 5AC111FF
@@ -309,7 +309,7 @@ OPLEFT_CLK
 Text HLabel 6450 1550 2    60   Output ~ 0
 OPRIGHT_CLK
 Text HLabel 6450 1650 2    60   Output ~ 0
-OPC_CLK
+OPCHOOSE_CLK
 Text HLabel 6450 1850 2    60   Output ~ 0
 BJMPSRC1_CLK
 Text HLabel 6450 1750 2    60   Output ~ 0
@@ -457,7 +457,7 @@ I_RAMW
 Text HLabel 10100 2900 2    60   Output ~ 0
 RAM_OE_CONTROL
 Text Notes 5950 6550 0    60   ~ 0
-Instruction 5bit :\n0x00 = BWRITE1_CLK\n0x01 = BWRITE2_CLK\n0x02 = BPCS_CLK\n0x03 = OPLEFT_CLK\n0x04 = OPRIGHT_CLK\n0x05 = OPC_CLK\n0x06 = PERIPHERAL_CLK\n0x07 = BJMPSRC1_CLK\n0x08 = BJMPSRC2_CLK\n0x09 = BJMPSRC3_CLK\n0x0A = JMPSRC_CLK\n0x0B = BRAMADD1_CLK\n0x0C = BRAMADD2_CLK\n0x0D = SPI_CLK\n0x0E = BSPI_CLK\n0x0F = STICK\n0x10 = IF\n0x11 = IFNOT\n0x12 = RAMW\n0x13 = UOP\n0x14 = UOP\n0x15 = UOP\n0x16 = UOP\n0x17 = LTICK
+Instruction 5bit :\n0x00 = BWRITE1_CLK\n0x01 = BWRITE2_CLK\n0x02 = BPCS_CLK\n0x03 = OPLEFT_CLK\n0x04 = OPRIGHT_CLK\n0x05 = OPCHOOSE_CLK\n0x06 = PERIPHERAL_CLK\n0x07 = BJMPSRC1_CLK\n0x08 = BJMPSRC2_CLK\n0x09 = BJMPSRC3_CLK\n0x0A = JMPSRC_CLK\n0x0B = BRAMADD1_CLK\n0x0C = BRAMADD2_CLK\n0x0D = SPI_CLK\n0x0E = BCFG_SPI_CLK\n0x0F = STICK\n0x10 = IF\n0x11 = IFNOT\n0x12 = RAMW\n0x13 = UOP\n0x14 = UOP\n0x15 = UOP\n0x16 = UOP\n0x17 = LTICK
 Text Label 4600 1700 2    60   ~ 0
 INSTRUCTION_B1
 Text Label 4600 1800 2    60   ~ 0
@@ -987,11 +987,9 @@ I_LTICK
 Wire Wire Line
 	5700 1150 6450 1150
 Text HLabel 6450 3600 2    60   Output ~ 0
-BCSPI_CLK
+BCFG_SPI_CLK
 Text HLabel 6450 3500 2    60   Output ~ 0
 SPI_CLK
-Text Label 6400 3600 2    60   ~ 0
-I_BCSPI_CLK
 Text Label 6400 3500 2    60   ~ 0
 I_SPI_CLK
 Text Label 6400 3200 2    60   ~ 0
@@ -1103,4 +1101,6 @@ Wire Wire Line
 	9300 5500 9800 5500
 Wire Bus Line
 	2650 6700 2650 7500
+Text Label 6400 3600 2    60   ~ 0
+I_BCFG_SPI_CLK
 $EndSCHEMATC
