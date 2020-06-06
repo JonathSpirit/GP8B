@@ -24,7 +24,7 @@ for applicable conditions.
 ## Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
-<img src="images/GP8B.JPG" alt="GP8B_image" width="400"/>
+<img src="images/GP8B.JPG" alt="GP8B_image" width="400"/> <img src="images/GP8B_3D.png" alt="GP8B_image" width="400"/>
 
 ## Versions list
 
