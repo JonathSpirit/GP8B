@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name hole_3mm)(type KiCad)(uri "$(KIPRJMOD)/libraries/hole_3mm.pretty")(options "")(descr ""))
   (lib (name Eurocard_5536475-1)(type KiCad)(uri "$(KIPRJMOD)/libraries/Eurocard_5536475-1.pretty")(options "")(descr ""))
   (lib (name TE5530843-2)(type KiCad)(uri "$(KIPRJMOD)/libraries/TE5530843-2.pretty")(options "")(descr ""))
 )
