@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0121
 U 1 1 5ACA383C
 P 9600 850
-F 0 "#PWR?" H 9600 700 50  0001 C CNN
+F 0 "#PWR0121" H 9600 700 50  0001 C CNN
 F 1 "+5V" H 9600 990 50  0000 C CNN
 F 2 "" H 9600 850 50  0001 C CNN
 F 3 "" H 9600 850 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 9600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0123
 U 1 1 5ACA3842
 P 7200 850
-F 0 "#PWR?" H 7200 700 50  0001 C CNN
+F 0 "#PWR0123" H 7200 700 50  0001 C CNN
 F 1 "+5V" H 7200 990 50  0000 C CNN
 F 2 "" H 7200 850 50  0001 C CNN
 F 3 "" H 7200 850 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 7200 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 5ACA3848
 P 7200 2650
-F 0 "#PWR?" H 7200 2400 50  0001 C CNN
+F 0 "#PWR0125" H 7200 2400 50  0001 C CNN
 F 1 "GND" H 7200 2500 50  0000 C CNN
 F 2 "" H 7200 2650 50  0001 C CNN
 F 3 "" H 7200 2650 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 7200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 5ACA384E
 P 9600 2650
-F 0 "#PWR?" H 9600 2400 50  0001 C CNN
+F 0 "#PWR0126" H 9600 2400 50  0001 C CNN
 F 1 "GND" H 9600 2500 50  0000 C CNN
 F 2 "" H 9600 2650 50  0001 C CNN
 F 3 "" H 9600 2650 50  0001 C CNN
@@ -58,25 +58,25 @@ F 3 "" H 9600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C25
 U 1 1 5ACA3854
-P 6150 2450
-F 0 "C?" H 6175 2550 50  0000 L CNN
-F 1 "10nF" H 6175 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6188 2300 50  0001 C CNN
-F 3 "" H 6150 2450 50  0001 C CNN
-	1    6150 2450
-	-1   0    0    1   
+P 6100 2450
+F 0 "C25" H 6125 2550 50  0000 L CNN
+F 1 "10nF" H 6125 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 2300 50  0001 C CNN
+F 3 "" H 6100 2450 50  0001 C CNN
+	1    6100 2450
+	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C27
 U 1 1 5ACA385B
-P 8550 2450
-F 0 "C?" H 8575 2550 50  0000 L CNN
-F 1 "10nF" H 8575 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 2300 50  0001 C CNN
-F 3 "" H 8550 2450 50  0001 C CNN
-	1    8550 2450
+P 8500 2450
+F 0 "C27" H 8525 2550 50  0000 L CNN
+F 1 "10nF" H 8525 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 2300 50  0001 C CNN
+F 3 "" H 8500 2450 50  0001 C CNN
+	1    8500 2450
 	-1   0    0    1   
 $EndComp
 Text Notes 7450 850  0    60   ~ 0
@@ -84,10 +84,10 @@ BWRITE1_DATA
 Text Notes 9900 850  0    60   ~ 0
 BWRITE2_DATA
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0127
 U 1 1 5ACA386B
 P 7200 3050
-F 0 "#PWR?" H 7200 2900 50  0001 C CNN
+F 0 "#PWR0127" H 7200 2900 50  0001 C CNN
 F 1 "+5V" H 7200 3190 50  0000 C CNN
 F 2 "" H 7200 3050 50  0001 C CNN
 F 3 "" H 7200 3050 50  0001 C CNN
@@ -95,26 +95,15 @@ F 3 "" H 7200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5ACA3871
 P 7200 4850
-F 0 "#PWR?" H 7200 4600 50  0001 C CNN
+F 0 "#PWR0128" H 7200 4600 50  0001 C CNN
 F 1 "GND" H 7200 4700 50  0000 C CNN
 F 2 "" H 7200 4850 50  0001 C CNN
 F 3 "" H 7200 4850 50  0001 C CNN
 	1    7200 4850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5ACA3877
-P 6150 4650
-F 0 "C?" H 6175 4750 50  0000 L CNN
-F 1 "10nF" H 6175 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6188 4500 50  0001 C CNN
-F 3 "" H 6150 4650 50  0001 C CNN
-	1    6150 4650
-	-1   0    0    1   
 $EndComp
 Text Notes 7500 3050 0    60   ~ 0
 BPCS_DATA
@@ -159,10 +148,10 @@ NUMBER_2
 Text Label 6700 3750 2    60   ~ 0
 NUMBER_3
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0132
 U 1 1 5ACA3902
 P 4050 3100
-F 0 "#PWR?" H 4050 2950 50  0001 C CNN
+F 0 "#PWR0132" H 4050 2950 50  0001 C CNN
 F 1 "+5V" H 4050 3240 50  0000 C CNN
 F 2 "" H 4050 3100 50  0001 C CNN
 F 3 "" H 4050 3100 50  0001 C CNN
@@ -170,10 +159,10 @@ F 3 "" H 4050 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0141
 U 1 1 5ACA3908
 P 4050 900
-F 0 "#PWR?" H 4050 750 50  0001 C CNN
+F 0 "#PWR0141" H 4050 750 50  0001 C CNN
 F 1 "+5V" H 4050 1040 50  0000 C CNN
 F 2 "" H 4050 900 50  0001 C CNN
 F 3 "" H 4050 900 50  0001 C CNN
@@ -181,10 +170,10 @@ F 3 "" H 4050 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0142
 U 1 1 5ACA390E
 P 4050 2700
-F 0 "#PWR?" H 4050 2450 50  0001 C CNN
+F 0 "#PWR0142" H 4050 2450 50  0001 C CNN
 F 1 "GND" H 4050 2550 50  0000 C CNN
 F 2 "" H 4050 2700 50  0001 C CNN
 F 3 "" H 4050 2700 50  0001 C CNN
@@ -192,10 +181,10 @@ F 3 "" H 4050 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 5ACA3914
 P 4050 4900
-F 0 "#PWR?" H 4050 4650 50  0001 C CNN
+F 0 "#PWR0143" H 4050 4650 50  0001 C CNN
 F 1 "GND" H 4050 4750 50  0000 C CNN
 F 2 "" H 4050 4900 50  0001 C CNN
 F 3 "" H 4050 4900 50  0001 C CNN
@@ -203,25 +192,14 @@ F 3 "" H 4050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C21
 U 1 1 5ACA391A
-P 2900 2500
-F 0 "C?" H 2925 2600 50  0000 L CNN
-F 1 "10nF" H 2925 2400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 2350 50  0001 C CNN
-F 3 "" H 2900 2500 50  0001 C CNN
-	1    2900 2500
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5ACA3921
-P 2900 4700
-F 0 "C?" H 2925 4800 50  0000 L CNN
-F 1 "10nF" H 2925 4600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 4550 50  0001 C CNN
-F 3 "" H 2900 4700 50  0001 C CNN
-	1    2900 4700
+P 2850 2500
+F 0 "C21" H 2875 2600 50  0000 L CNN
+F 1 "10nF" H 2875 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2888 2350 50  0001 C CNN
+F 3 "" H 2850 2500 50  0001 C CNN
+	1    2850 2500
 	1    0    0    1   
 $EndComp
 Text Label 3550 1300 2    60   ~ 0
@@ -515,10 +493,10 @@ BPCS_4
 Text Label 8150 3950 2    60   ~ 0
 BPCS_5
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0144
 U 1 1 5B0D3893
 P 4050 5300
-F 0 "#PWR?" H 4050 5150 50  0001 C CNN
+F 0 "#PWR0144" H 4050 5150 50  0001 C CNN
 F 1 "+5V" H 4050 5440 50  0000 C CNN
 F 2 "" H 4050 5300 50  0001 C CNN
 F 3 "" H 4050 5300 50  0001 C CNN
@@ -526,10 +504,10 @@ F 3 "" H 4050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0145
 U 1 1 5B0D3899
 P 4050 7100
-F 0 "#PWR?" H 4050 6850 50  0001 C CNN
+F 0 "#PWR0145" H 4050 6850 50  0001 C CNN
 F 1 "GND" H 4050 6950 50  0000 C CNN
 F 2 "" H 4050 7100 50  0001 C CNN
 F 3 "" H 4050 7100 50  0001 C CNN
@@ -537,14 +515,14 @@ F 3 "" H 4050 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C22
 U 1 1 5B0D389F
-P 2900 6900
-F 0 "C?" H 2925 7000 50  0000 L CNN
-F 1 "10nF" H 2925 6800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 6750 50  0001 C CNN
-F 3 "" H 2900 6900 50  0001 C CNN
-	1    2900 6900
+P 2850 6900
+F 0 "C22" H 2875 7000 50  0000 L CNN
+F 1 "10nF" H 2875 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2888 6750 50  0001 C CNN
+F 3 "" H 2850 6900 50  0001 C CNN
+	1    2850 6900
 	1    0    0    1   
 $EndComp
 Text Label 3550 5700 2    60   ~ 0
@@ -672,10 +650,10 @@ BPCS_7
 Wire Bus Line
 	5250 6550 6050 6550
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U29
 U 1 1 5D390EB1
 P 7200 1750
-F 0 "U?" H 7350 2500 50  0000 C CNN
+F 0 "U29" H 7350 2500 50  0000 C CNN
 F 1 "74AHC273" H 7450 2400 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7200 1750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 7200 1750 50  0001 C CNN
@@ -683,10 +661,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 7200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U31
 U 1 1 5D39509C
 P 9600 1750
-F 0 "U?" H 9750 2500 50  0000 C CNN
+F 0 "U31" H 9750 2500 50  0000 C CNN
 F 1 "74AHC273" H 9850 2400 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 9600 1750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 9600 1750 50  0001 C CNN
@@ -694,10 +672,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 9600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U33
 U 1 1 5D39584F
 P 7200 3950
-F 0 "U?" H 7350 4700 50  0000 C CNN
+F 0 "U33" H 7350 4700 50  0000 C CNN
 F 1 "74AHC273" H 7450 4600 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7200 3950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 7200 3950 50  0001 C CNN
@@ -705,10 +683,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 7200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U26
 U 1 1 5D398A57
 P 4050 1800
-F 0 "U?" H 4200 2550 50  0000 C CNN
+F 0 "U26" H 4200 2550 50  0000 C CNN
 F 1 "74AHC273" H 4300 2450 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4050 1800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 1800 50  0001 C CNN
@@ -716,10 +694,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U24
 U 1 1 5D39B5A9
 P 4050 6200
-F 0 "U?" H 4200 6950 50  0000 C CNN
+F 0 "U24" H 4200 6950 50  0000 C CNN
 F 1 "74AHC273" H 4300 6850 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4050 6200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 6200 50  0001 C CNN
@@ -727,10 +705,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74AHC273 U?
+L 74xx:74AHC273 U27
 U 1 1 5D39CA83
 P 4050 4000
-F 0 "U?" H 4200 4750 50  0000 C CNN
+F 0 "U27" H 4200 4750 50  0000 C CNN
 F 1 "74AHC273" H 4300 4650 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4050 4000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 4000 50  0001 C CNN
@@ -739,8 +717,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4050 
 $EndComp
 Wire Wire Line
 	7200 850  7200 900 
-Wire Wire Line
-	7200 900  6150 900 
 Connection ~ 7200 900 
 Wire Wire Line
 	7200 900  7200 950 
@@ -750,18 +726,7 @@ Connection ~ 7200 2600
 Wire Wire Line
 	7200 2600 7200 2550
 Wire Wire Line
-	6150 2600 7200 2600
-Wire Wire Line
-	6150 900  6150 2250
-Wire Wire Line
-	6700 2250 6150 2250
-Connection ~ 6150 2250
-Wire Wire Line
-	6150 2250 6150 2300
-Wire Wire Line
 	9600 950  9600 900 
-Wire Wire Line
-	9600 900  8550 900 
 Connection ~ 9600 900 
 Wire Wire Line
 	9600 900  9600 850 
@@ -770,15 +735,6 @@ Wire Wire Line
 Connection ~ 9600 2600
 Wire Wire Line
 	9600 2600 9600 2550
-Wire Wire Line
-	8550 2600 9600 2600
-Wire Wire Line
-	8550 900  8550 2250
-Wire Wire Line
-	8550 2250 9100 2250
-Connection ~ 8550 2250
-Wire Wire Line
-	8550 2250 8550 2300
 NoConn ~ 7700 4150
 NoConn ~ 7700 4050
 Wire Wire Line
@@ -792,76 +748,32 @@ Connection ~ 7200 4800
 Wire Wire Line
 	7200 4800 7200 4750
 Wire Wire Line
-	6150 4800 7200 4800
-Wire Wire Line
-	6150 4500 6150 4450
-Wire Wire Line
-	6150 3100 7200 3100
-Wire Wire Line
-	6700 4450 6150 4450
-Connection ~ 6150 4450
-Wire Wire Line
-	6150 4450 6150 3100
-Wire Wire Line
 	4050 7100 4050 7050
-Wire Wire Line
-	4050 7050 2900 7050
 Connection ~ 4050 7050
 Wire Wire Line
 	4050 7050 4050 7000
 Wire Wire Line
-	3550 6700 2900 6700
-Wire Wire Line
-	2900 6700 2900 6750
-Wire Wire Line
-	2900 6700 2900 5350
-Wire Wire Line
-	2900 5350 4050 5350
-Wire Wire Line
 	4050 5350 4050 5300
-Connection ~ 2900 6700
 Wire Wire Line
 	4050 5350 4050 5400
 Connection ~ 4050 5350
 Wire Wire Line
 	4050 4900 4050 4850
-Wire Wire Line
-	4050 4850 2900 4850
 Connection ~ 4050 4850
 Wire Wire Line
 	4050 4850 4050 4800
 Wire Wire Line
 	4050 3200 4050 3150
-Wire Wire Line
-	4050 3150 2900 3150
-Wire Wire Line
-	2900 3150 2900 4500
 Connection ~ 4050 3150
 Wire Wire Line
 	4050 3150 4050 3100
 Wire Wire Line
-	3550 4500 2900 4500
-Connection ~ 2900 4500
-Wire Wire Line
-	2900 4500 2900 4550
-Wire Wire Line
 	4050 2700 4050 2650
-Wire Wire Line
-	4050 2650 2900 2650
 Connection ~ 4050 2650
 Wire Wire Line
 	4050 2650 4050 2600
 Wire Wire Line
-	2900 2350 2900 2300
-Wire Wire Line
-	2900 2300 3550 2300
-Wire Wire Line
-	2900 2300 2900 950 
-Wire Wire Line
-	2900 950  4050 950 
-Wire Wire Line
 	4050 950  4050 900 
-Connection ~ 2900 2300
 Wire Wire Line
 	4050 950  4050 1000
 Connection ~ 4050 950 
@@ -1077,14 +989,102 @@ Text Label 9750 5750 2    60   ~ 0
 BJMPSRC_[0..23]
 Text Label 6700 4350 2    60   ~ 0
 BPCS_CLK
+Wire Wire Line
+	2850 6700 2850 6750
+Wire Wire Line
+	2850 6700 3550 6700
+Wire Wire Line
+	2850 6700 2850 5350
+Wire Wire Line
+	2850 5350 4050 5350
+Connection ~ 2850 6700
+Wire Wire Line
+	2850 7050 4050 7050
+$Comp
+L Device:C C23
+U 1 1 5ACA3921
+P 2850 4700
+F 0 "C23" H 2875 4800 50  0000 L CNN
+F 1 "10nF" H 2875 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2888 4550 50  0001 C CNN
+F 3 "" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2850 4850 4050 4850
+Wire Wire Line
+	2850 4500 2850 4550
+Wire Wire Line
+	2850 4500 3550 4500
+Wire Wire Line
+	2850 4500 2850 3150
+Wire Wire Line
+	2850 3150 4050 3150
+Connection ~ 2850 4500
+Wire Wire Line
+	2850 2350 2850 2300
+Wire Wire Line
+	2850 950  4050 950 
+Wire Wire Line
+	2850 2300 3550 2300
+Connection ~ 2850 2300
+Wire Wire Line
+	2850 2300 2850 950 
+Wire Wire Line
+	2850 2650 4050 2650
+$Comp
+L Device:C C29
+U 1 1 5ACA3877
+P 6100 4650
+F 0 "C29" H 6125 4750 50  0000 L CNN
+F 1 "10nF" H 6125 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 4500 50  0001 C CNN
+F 3 "" H 6100 4650 50  0001 C CNN
+	1    6100 4650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2300 6100 2250
+Wire Wire Line
+	6100 900  7200 900 
+Wire Wire Line
+	6100 2250 6700 2250
+Connection ~ 6100 2250
+Wire Wire Line
+	6100 2250 6100 900 
+Wire Wire Line
+	6100 2600 7200 2600
+Wire Wire Line
+	6100 4500 6100 4450
+Wire Wire Line
+	6100 3100 7200 3100
+Wire Wire Line
+	6100 4450 6700 4450
+Connection ~ 6100 4450
+Wire Wire Line
+	6100 4450 6100 3100
+Wire Wire Line
+	6100 4800 7200 4800
+Wire Wire Line
+	8500 2300 8500 2250
+Wire Wire Line
+	8500 900  9600 900 
+Wire Wire Line
+	8500 2250 9100 2250
+Connection ~ 8500 2250
+Wire Wire Line
+	8500 2250 8500 900 
+Wire Wire Line
+	8500 2600 9600 2600
 Wire Bus Line
 	8300 3550 8300 4350
 Wire Bus Line
-	1500 2150 1500 2950
+	10700 1350 10700 2150
 Wire Bus Line
 	8300 1350 8300 2150
 Wire Bus Line
-	10700 1350 10700 2150
+	1500 2150 1500 2950
 Wire Bus Line
 	5250 1400 5250 6550
 Wire Bus Line

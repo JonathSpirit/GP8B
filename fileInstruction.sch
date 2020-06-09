@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title "GP8B"
 Date "2019-05-12"
 Rev "V5.0"
@@ -1099,8 +1099,8 @@ Wire Wire Line
 	9300 5300 9800 5300
 Wire Wire Line
 	9300 5500 9800 5500
-Wire Bus Line
-	2650 6700 2650 7500
 Text Label 6400 3600 2    60   ~ 0
 I_BCFG_SPI_CLK
+Wire Bus Line
+	2650 6700 2650 7500
 $EndSCHEMATC
