@@ -24,7 +24,8 @@ for applicable conditions.
 ## Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
-<img src="images/GP8B.JPG" alt="GP8B_image" width="400"/> <img src="images/GP8B_3D.png" alt="GP8B_image" width="400"/>
+<img src="images/GP8B.JPG" alt="GP8B_image" width="400"/> <img src="images/GP8B_3D.png" alt="GP8B_3D_image" width="400"/>
+<img src="images/GP8B_3D_TOP.png" alt="GP8B_3D_TOP_image" width="400"/> <img src="images/GP8B_3D_BOT.png" alt="GP8B_3D_BOT_image" width="400"/>
 
 ## Versions list
 
@@ -33,9 +34,9 @@ Actual version :
 
 ## Block diagram
 
-[Block diagram file](document/Block%20diagram.pdf)
+[Block diagram (.pdf)](documents/blockDiagram/GP8B_blockDiagram.pdf)
 
-<img src="images/diagram.png" alt="Image of diagram" width="600"/>
+<img src="images/diagram.png" alt="Image of diagram" width="800"/>
 
 ## Instruction sets
 8bits instuction is separated in 2 category :
@@ -92,8 +93,10 @@ This processor, follow the [SPS1](https://github.com/JonathSpirit/GComputer_stan
 Compatible with all motherboard following the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 ## Documents
-[Block diagram file](document/Block%20diagram.pdf)
+[Block diagram (.pdf)](documents/blockDiagram/GP8B_blockDiagram.pdf)
 
-[Schematics (.pdf)](document/GP8B_schematics.pdf)
+[Schematics (.pdf)](documents/GP8B_schematics.pdf)
 
-*WIP*
+[Materials (.pdf)](documents/GP8B_materials.pdf)
+
+[Datasheet (.pdf)](documents/GP8B_datasheet.pdf)
