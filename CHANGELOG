@@ -21,6 +21,8 @@ GP8B V5.0 :
 - PCB
 	- Removing old footprints
 	- Set version to 5.0
+	- Adding QRCode with the Github link
+	- Fixing 3D
 	
 - SCHEMATICS FEATURES
 	- Replacing the old XC95288XL-10TQ144 by XC2C256-VQ100
