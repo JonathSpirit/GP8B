@@ -18,6 +18,9 @@ GP8B V5.0 :
     - Adding SN74LVC8T245DW symbol
     - Adding SN74AVC4T245D symbol
     - Set version to 5.0
+    - Replacing all used 74x1Gxx symbols
+        (shared power pin fix, and visual)
+        (same for CD74AC238)
 
 - PCB
     - Removing old footprints
@@ -49,3 +52,5 @@ GP8B V5.0 :
     - Renaming "Registre" sheet to "Register" and "fileRegistre.sch" to "fileRegister.sch"
     - Renaming "Ram.sch" to "fileRAM.sch"
     - Renaming "SPI.sch" to "fileSPI.sch"
+
+    - Apply the MM1 memory standard (3.3V I/O changes)

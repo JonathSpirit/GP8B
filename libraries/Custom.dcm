@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74AHC1G04
+D Single NOT Gate, AHCMOS
+K Single Gate NOT AHCMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G04
+D Single NOT Gate, AHCTMOS
+K Single Gate NOT AHCTMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74LVC1G34
+D Single Buffef Gate, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+$ENDCMP
+#
 $CMP SN74AVC4T245D
 D 4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOIC-16
 K Noninverting Bidirectional
