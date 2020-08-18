@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "GP8B"
-Date "2019-05-12"
+Date "2020-08-19"
 Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
