@@ -42,7 +42,7 @@ GP8B V5.0 :
     - Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD
 
     - Renamed some connectors
-    - Fix/Work-around for SPI (4bits only problem)
+    - SPI : now data come from the 8bits D-latch register (was directly controlled by the number bus)
     - Mounting holes is now on schematics
 
     - Renaming "OPC_CLK" to "OPCHOOSE_CLK"

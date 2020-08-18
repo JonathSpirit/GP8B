@@ -111,22 +111,10 @@ Wire Wire Line
 	3150 3650 3150 3600
 Text Label 3650 2300 0    60   ~ 0
 SPI_CFG_~PL
-Text Label 3650 2500 0    60   ~ 0
-SPI_SCLK
 Text Label 5100 3500 2    60   ~ 0
 SPI_CLK
 Text Label 3650 2600 0    60   ~ 0
 SPI_CS
-Text Label 5100 2800 2    60   ~ 0
-NUMBER_4
-Text Label 5100 2900 2    60   ~ 0
-NUMBER_5
-Text Label 5100 3000 2    60   ~ 0
-NUMBER_6
-Text Label 5100 3100 2    60   ~ 0
-NUMBER_7
-Text Label 3650 2400 0    60   ~ 0
-SPI_CFG_RCLK
 Text Label 7500 2800 2    60   ~ 0
 SPI_CFG_RCLK
 $Comp
@@ -247,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 2300 4500 2300
 Wire Wire Line
-	4500 2300 4500 3950
+	4500 2300 4500 2400
 Wire Wire Line
 	4500 3950 5050 3950
 Wire Wire Line
@@ -394,14 +382,6 @@ Text Label 3650 2900 0    60   ~ 0
 BUFF_2
 Text Label 3650 3000 0    60   ~ 0
 BUFF_3
-Text Label 5100 2400 2    60   ~ 0
-BUFF_0
-Text Label 5100 2500 2    60   ~ 0
-BUFF_1
-Text Label 5100 2600 2    60   ~ 0
-BUFF_2
-Text Label 5100 2700 2    60   ~ 0
-BUFF_3
 Text Label 2650 3200 2    60   ~ 0
 BCFG_SPI_CLK
 Wire Wire Line
@@ -415,6 +395,38 @@ Wire Wire Line
 	1950 3300 1950 1950
 Wire Wire Line
 	1950 3300 2650 3300
+Text Label 3650 2400 0    60   ~ 0
+SPI_CFG_RCLK
+Text Label 3650 2500 0    60   ~ 0
+SPI_SCLK
+Text Label 5100 2800 2    60   ~ 0
+BUFF_0
+Text Label 5100 2900 2    60   ~ 0
+BUFF_1
+Text Label 5100 3000 2    60   ~ 0
+BUFF_2
+Text Label 5100 3100 2    60   ~ 0
+BUFF_3
+Wire Wire Line
+	5100 2400 4500 2400
+Connection ~ 4500 2400
+Wire Wire Line
+	4500 2400 4500 2500
+Wire Wire Line
+	5100 2500 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4500 2600
+Wire Wire Line
+	5100 2600 4500 2600
+Connection ~ 4500 2600
+Wire Wire Line
+	4500 2600 4500 2700
+Wire Wire Line
+	5100 2700 4500 2700
 Wire Bus Line
 	1550 4750 1550 5550
+Connection ~ 4500 2700
+Wire Wire Line
+	4500 2700 4500 3950
 $EndSCHEMATC
