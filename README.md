@@ -21,6 +21,8 @@ for applicable conditions.
 </tr>
 </table>
 
+Made with [Kicad](https://kicad-pcb.org/)
+
 ## Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
@@ -104,3 +106,6 @@ Compatible with all motherboard following the [MOM1_SPS1](https://github.com/Jon
 [Materials (.pdf)](documents/GP8B_materials.pdf)
 
 [Datasheet (.pdf)](documents/GP8B_datasheet.pdf)
+
+## Contributing / Questions
+Please see [Contributing file](CONTRIBUTING.md)
