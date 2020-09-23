@@ -1,16 +1,15 @@
 EESchema Schematic File Version 4
-LIBS:Project_GP8B-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "GP8B"
-Date "2019-05-12"
-Rev "V4"
+Date "2020-08-19"
+Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
-Comment2 "Licensed under CERN OHL v.1.2"
+Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr

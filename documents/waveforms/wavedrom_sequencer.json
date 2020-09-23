@@ -1,0 +1,23 @@
+{signal: [
+  {name: 'GLOBAL_CLK', 		wave:'lP........', node: '....a'},
+  {},
+  {name: 'COUNTER_OUT', 	wave:'==========', data: '0 1 2 3 4 0 1 2 3 4'},
+  {name: 'COUNTER_OUT_0', 	wave:'lhlhl.hlhl'},
+  {name: 'COUNTER_OUT_1', 	wave:'l.h.l..h.l'},
+  {},
+  {name: 'COUNTER_0', 		wave:'hl..h.l..h'},
+  {name: 'COUNTER_1', 		wave:'lhl...hl..'},
+  {name: 'COUNTER_2', 		wave:'l.hl...hl.'},
+  {name: 'COUNTER_4', 		wave:'l...hl...h'},
+  {},
+  {name: '~COUNTER_RESET', 	wave:'h...01...0', node: '.....b'},
+],
+edge: [
+  'a~b Reset for the next pulse'
+],
+head:{
+   text:'Sequencer',
+   tick:0,
+}
+
+}

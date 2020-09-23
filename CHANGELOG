@@ -1,0 +1,56 @@
+GP8B V4.0 :
+    - Intial release
+    
+GP8B V5.0 :
+- GLOBAL
+    - Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
+
+- DOCUMENTS
+    - Adding the GP8B datasheet
+    - Adding waveforms
+    - Adding the CHANGELOG file
+    - Cleaning
+    
+- SCHEMATICS
+    - Small symbols changes
+    - Removing old symbols
+    - Adding TPS7A0518PDBZR symbol
+    - Adding SN74LVC8T245DW symbol
+    - Adding SN74AVC4T245D symbol
+    - Set version to 5.0
+    - Replacing all used 74x1Gxx symbols
+        (shared power pin fix, and visual)
+        (same for CD74AC238)
+
+- PCB
+    - Removing old footprints
+    - Set version to 5.0
+    - Adding QRCode with the Github link
+    - Fixing 3D
+
+- SCHEMATICS FEATURES
+    - Replacing the old XC95288XL-10TQ144 by XC2C256-VQ100
+        XC95288XL is a obsolete CPLD and is now replaced with
+        a CoolRunnerII familly CPLD.
+        the XC2C256-VQ100 is more hand-solder friendly too.
+
+    - Adding the regulator TPS7A0518PDBZR for 1.8V (CPLD)
+    - Adding VREF (3.3V) to the JTAG connector
+    - Removing some unused pins and shrink the connector (J4) down
+    - Adding a new connector for all the ALU pins (J5)
+    - All capacitor for the CPLD is now 100nF
+    - Adding SN74LVC8T245DW and SN74AVC4T245D to translate logic level for the CPLD
+
+    - Renamed some connectors
+    - SPI : now data come from the 8bits D-latch register (was directly controlled by the number bus)
+    - Mounting holes is now on schematics
+
+    - Renaming "OPC_CLK" to "OPCHOOSE_CLK"
+    - Renaming "BCSPI_CLK" to "BCFG_SPI_CLK"
+
+    - Renaming "Connecteur" sheet to "Connector" and "Connector.sch" to "fileConnector.sch"
+    - Renaming "Registre" sheet to "Register" and "fileRegistre.sch" to "fileRegister.sch"
+    - Renaming "Ram.sch" to "fileRAM.sch"
+    - Renaming "SPI.sch" to "fileSPI.sch"
+
+    - Apply the MM1 memory standard (3.3V I/O changes)
