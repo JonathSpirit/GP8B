@@ -307,92 +307,92 @@ Wire Wire Line
 	8100 1550 8000 1550
 Wire Wire Line
 	8000 1550 8000 1650
-Text Label 8150 4150 2    60   ~ 0
+Text Label 7900 4200 2    60   ~ 0
 UNUSED_A0
-Text Label 8650 4050 0    60   ~ 0
+Text Label 8400 4100 0    60   ~ 0
 UNUSED_A1
-Text Label 8150 4050 2    60   ~ 0
+Text Label 7900 4100 2    60   ~ 0
 UNUSED_A2
-Text Label 8650 3950 0    60   ~ 0
+Text Label 8400 4000 0    60   ~ 0
 UNUSED_A3
-Text Label 8150 3950 2    60   ~ 0
+Text Label 7900 4000 2    60   ~ 0
 UNUSED_A4
-Text Label 8650 3850 0    60   ~ 0
+Text Label 8400 3900 0    60   ~ 0
 UNUSED_A5
-Text Label 8150 3850 2    60   ~ 0
+Text Label 7900 3900 2    60   ~ 0
 UNUSED_A6
-Text Label 8650 3750 0    60   ~ 0
+Text Label 8400 3800 0    60   ~ 0
 UNUSED_A7
-Text Label 8150 3750 2    60   ~ 0
+Text Label 7900 3800 2    60   ~ 0
 UNUSED_B0
-Text Label 8650 3650 0    60   ~ 0
+Text Label 8400 3700 0    60   ~ 0
 UNUSED_B1
-Text Label 8150 3650 2    60   ~ 0
+Text Label 7900 3700 2    60   ~ 0
 UNUSED_B2
-Text Label 8650 3550 0    60   ~ 0
+Text Label 8400 3600 0    60   ~ 0
 UNUSED_B3
-Text Label 8150 3550 2    60   ~ 0
+Text Label 7900 3600 2    60   ~ 0
 UNUSED_B4
-Text Label 8650 3450 0    60   ~ 0
+Text Label 8400 3500 0    60   ~ 0
 UNUSED_B5
-Text Label 8150 3450 2    60   ~ 0
+Text Label 7900 3500 2    60   ~ 0
 UNUSED_B6
-Text Label 8650 3350 0    60   ~ 0
+Text Label 8400 3400 0    60   ~ 0
 UNUSED_B7
-Text Label 8150 2950 2    60   ~ 0
+Text Label 7900 3000 2    60   ~ 0
 UNUSED_D0
-Text Label 8650 2850 0    60   ~ 0
+Text Label 8400 2900 0    60   ~ 0
 UNUSED_D1
-Text Label 8650 2750 0    60   ~ 0
+Text Label 8400 2800 0    60   ~ 0
 UNUSED_D3
-Text Label 8150 3350 2    60   ~ 0
+Text Label 7900 3400 2    60   ~ 0
 UNUSED_C0
-Text Label 8650 3250 0    60   ~ 0
+Text Label 8400 3300 0    60   ~ 0
 UNUSED_C1
-Text Label 8150 3250 2    60   ~ 0
+Text Label 7900 3300 2    60   ~ 0
 UNUSED_C2
-Text Label 8650 3150 0    60   ~ 0
+Text Label 8400 3200 0    60   ~ 0
 UNUSED_C3
-Text Label 8150 3150 2    60   ~ 0
+Text Label 7900 3200 2    60   ~ 0
 UNUSED_C4
-Text Label 8650 3050 0    60   ~ 0
+Text Label 8400 3100 0    60   ~ 0
 UNUSED_C5
-Text Label 8150 3050 2    60   ~ 0
+Text Label 7900 3100 2    60   ~ 0
 UNUSED_C6
-Text Label 8650 2950 0    60   ~ 0
+Text Label 8400 3000 0    60   ~ 0
 UNUSED_C7
-Text Label 8150 2850 2    60   ~ 0
+Text Label 7900 2900 2    60   ~ 0
 UNUSED_D2
 $Comp
 L power:GND #PWR0139
 U 1 1 5E2489FA
-P 8750 4250
-F 0 "#PWR0139" H 8750 4000 50  0001 C CNN
-F 1 "GND" H 8750 4100 50  0000 C CNN
-F 2 "" H 8750 4250 50  0001 C CNN
-F 3 "" H 8750 4250 50  0001 C CNN
-	1    8750 4250
+P 8500 4300
+F 0 "#PWR0139" H 8500 4050 50  0001 C CNN
+F 1 "GND" H 8500 4150 50  0000 C CNN
+F 2 "" H 8500 4300 50  0001 C CNN
+F 3 "" H 8500 4300 50  0001 C CNN
+	1    8500 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 4250 8750 4150
+	8500 4300 8500 4200
 Wire Wire Line
-	8750 4150 8650 4150
+	8500 4200 8400 4200
 $Comp
 L power:+3.3V #PWR0140
 U 1 1 5E268631
-P 7900 2600
-F 0 "#PWR0140" H 7900 2450 50  0001 C CNN
-F 1 "+3.3V" H 7900 2740 50  0000 C CNN
-F 2 "" H 7900 2600 50  0001 C CNN
-F 3 "" H 7900 2600 50  0001 C CNN
-	1    7900 2600
+P 7650 2650
+F 0 "#PWR0140" H 7650 2500 50  0001 C CNN
+F 1 "+3.3V" H 7650 2790 50  0000 C CNN
+F 2 "" H 7650 2650 50  0001 C CNN
+F 3 "" H 7650 2650 50  0001 C CNN
+	1    7650 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 2750 7900 2750
+	7900 2800 7650 2800
 Wire Wire Line
-	7900 2750 7900 2600
+	7650 2800 7650 2650
 $Comp
 L FPGA_Xilinx:XC2C256-VQ100 IC1
 U 1 1 5ECADF9D
@@ -543,69 +543,69 @@ Wire Wire Line
 Wire Wire Line
 	5550 6550 5550 6500
 Connection ~ 5450 6550
-Text Label 9950 4150 2    60   ~ 0
+Text Label 9700 4200 2    60   ~ 0
 DLEFT_0
-Text Label 10450 4050 0    60   ~ 0
+Text Label 10200 4100 0    60   ~ 0
 DLEFT_1
-Text Label 9950 4050 2    60   ~ 0
+Text Label 9700 4100 2    60   ~ 0
 DLEFT_2
-Text Label 10450 3950 0    60   ~ 0
+Text Label 10200 4000 0    60   ~ 0
 DLEFT_3
-Text Label 9950 3950 2    60   ~ 0
+Text Label 9700 4000 2    60   ~ 0
 DLEFT_4
-Text Label 10450 3850 0    60   ~ 0
+Text Label 10200 3900 0    60   ~ 0
 DLEFT_5
-Text Label 9950 3850 2    60   ~ 0
+Text Label 9700 3900 2    60   ~ 0
 DLEFT_6
-Text Label 10450 3750 0    60   ~ 0
+Text Label 10200 3800 0    60   ~ 0
 DLEFT_7
-Text Label 9950 3750 2    60   ~ 0
+Text Label 9700 3800 2    60   ~ 0
 OPCS_0
-Text Label 10450 3650 0    60   ~ 0
+Text Label 10200 3700 0    60   ~ 0
 OPCS_1
-Text Label 9950 3650 2    60   ~ 0
+Text Label 9700 3700 2    60   ~ 0
 OPCS_2
-Text Label 10450 3550 0    60   ~ 0
+Text Label 10200 3600 0    60   ~ 0
 OPCS_3
-Text Label 9950 3550 2    60   ~ 0
+Text Label 9700 3600 2    60   ~ 0
 OPCS_4
-Text Label 10450 3450 0    60   ~ 0
+Text Label 10200 3500 0    60   ~ 0
 OPCS_5
-Text Label 9950 3450 2    60   ~ 0
+Text Label 9700 3500 2    60   ~ 0
 OPCS_6
-Text Label 10450 3350 0    60   ~ 0
+Text Label 10200 3400 0    60   ~ 0
 OPCS_7
-Text Label 9950 3350 2    60   ~ 0
+Text Label 9700 3400 2    60   ~ 0
 DRIGHT_0
-Text Label 10450 3250 0    60   ~ 0
+Text Label 10200 3300 0    60   ~ 0
 DRIGHT_1
-Text Label 9950 3250 2    60   ~ 0
+Text Label 9700 3300 2    60   ~ 0
 DRIGHT_2
-Text Label 10450 3150 0    60   ~ 0
+Text Label 10200 3200 0    60   ~ 0
 DRIGHT_3
-Text Label 9950 3150 2    60   ~ 0
+Text Label 9700 3200 2    60   ~ 0
 DRIGHT_4
-Text Label 10450 3050 0    60   ~ 0
+Text Label 10200 3100 0    60   ~ 0
 DRIGHT_5
-Text Label 9950 3050 2    60   ~ 0
+Text Label 9700 3100 2    60   ~ 0
 DRIGHT_6
-Text Label 10450 2950 0    60   ~ 0
+Text Label 10200 3000 0    60   ~ 0
 DRIGHT_7
-Text Label 9950 2950 2    60   ~ 0
+Text Label 9700 3000 2    60   ~ 0
 BOPRESULT_0
-Text Label 10450 2850 0    60   ~ 0
+Text Label 10200 2900 0    60   ~ 0
 BOPRESULT_1
-Text Label 9950 2850 2    60   ~ 0
+Text Label 9700 2900 2    60   ~ 0
 BOPRESULT_2
-Text Label 10450 2750 0    60   ~ 0
+Text Label 10200 2800 0    60   ~ 0
 BOPRESULT_3
-Text Label 9950 2750 2    60   ~ 0
+Text Label 9700 2800 2    60   ~ 0
 BOPRESULT_4
-Text Label 10450 2650 0    60   ~ 0
+Text Label 10200 2700 0    60   ~ 0
 BOPRESULT_5
-Text Label 9950 2650 2    60   ~ 0
+Text Label 9700 2700 2    60   ~ 0
 BOPRESULT_6
-Text Label 10450 2550 0    60   ~ 0
+Text Label 10200 2600 0    60   ~ 0
 BOPRESULT_7
 Text Label 6350 2050 0    60   ~ 0
 UNUSED_A0
@@ -776,70 +776,70 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x15_Odd_Even J4
 U 1 1 5F075135
-P 8450 3450
-F 0 "J4" H 8500 2525 50  0000 C CNN
-F 1 "UnusedPins_Connector" H 8500 2616 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical" H 8450 3450 50  0001 C CNN
-F 3 "~" H 8450 3450 50  0001 C CNN
-	1    8450 3450
+P 8200 3500
+F 0 "J4" H 8250 2575 50  0000 C CNN
+F 1 "UnusedPins_Connector" H 8250 2666 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical" H 8200 3500 50  0001 C CNN
+F 3 "~" H 8200 3500 50  0001 C CNN
+	1    8200 3500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x19_Odd_Even J5
 U 1 1 5F09F273
-P 10250 3250
-F 0 "J5" H 10300 2125 50  0000 C CNN
-F 1 "ALU_PINS" H 10300 2216 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x19_P1.27mm_Vertical" H 10250 3250 50  0001 C CNN
-F 3 "~" H 10250 3250 50  0001 C CNN
-	1    10250 3250
+P 10000 3300
+F 0 "J5" H 10050 2175 50  0000 C CNN
+F 1 "ALU_PINS" H 10050 2266 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x19_P1.27mm_Vertical" H 10000 3300 50  0001 C CNN
+F 3 "~" H 10000 3300 50  0001 C CNN
+	1    10000 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3.3V #PWR026
 U 1 1 5F0CB1D1
-P 9700 2200
-F 0 "#PWR026" H 9700 2050 50  0001 C CNN
-F 1 "+3.3V" H 9700 2340 50  0000 C CNN
-F 2 "" H 9700 2200 50  0001 C CNN
-F 3 "" H 9700 2200 50  0001 C CNN
-	1    9700 2200
+P 9450 2250
+F 0 "#PWR026" H 9450 2100 50  0001 C CNN
+F 1 "+3.3V" H 9450 2390 50  0000 C CNN
+F 2 "" H 9450 2250 50  0001 C CNN
+F 3 "" H 9450 2250 50  0001 C CNN
+	1    9450 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 2350 9700 2350
+	9700 2400 9450 2400
 Wire Wire Line
-	9700 2350 9700 2200
+	9450 2400 9450 2250
 $Comp
 L power:+1V8 #PWR034
 U 1 1 5F0CEBFF
-P 10700 2200
-F 0 "#PWR034" H 10700 2050 50  0001 C CNN
-F 1 "+1V8" H 10715 2373 50  0000 C CNN
-F 2 "" H 10700 2200 50  0001 C CNN
-F 3 "" H 10700 2200 50  0001 C CNN
-	1    10700 2200
+P 10450 2250
+F 0 "#PWR034" H 10450 2100 50  0001 C CNN
+F 1 "+1V8" H 10465 2423 50  0000 C CNN
+F 2 "" H 10450 2250 50  0001 C CNN
+F 3 "" H 10450 2250 50  0001 C CNN
+	1    10450 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 2350 10700 2350
+	10200 2400 10450 2400
 Wire Wire Line
-	10700 2350 10700 2200
+	10450 2400 10450 2250
 $Comp
 L power:GND #PWR033
 U 1 1 5F0DED44
-P 10550 4250
-F 0 "#PWR033" H 10550 4000 50  0001 C CNN
-F 1 "GND" H 10550 4100 50  0000 C CNN
-F 2 "" H 10550 4250 50  0001 C CNN
-F 3 "" H 10550 4250 50  0001 C CNN
-	1    10550 4250
+P 10300 4300
+F 0 "#PWR033" H 10300 4050 50  0001 C CNN
+F 1 "GND" H 10300 4150 50  0000 C CNN
+F 2 "" H 10300 4300 50  0001 C CNN
+F 3 "" H 10300 4300 50  0001 C CNN
+	1    10300 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10550 4250 10550 4150
+	10300 4300 10300 4200
 Wire Wire Line
-	10550 4150 10450 4150
+	10300 4200 10200 4200
 $Comp
 L Connector:Conn_01x06_Male J1
 U 1 1 5F0E2BDB
@@ -1345,11 +1345,11 @@ Wire Wire Line
 	700  5550 700  5450
 Text Label 4050 3850 2    60   ~ 0
 CPLD_OPCHOOSE_CLK
-Text Label 10450 2450 0    60   ~ 0
+Text Label 10200 2500 0    60   ~ 0
 CPLD_OPCHOOSE_CLK
-Text Label 9950 2450 2    60   ~ 0
+Text Label 9700 2500 2    60   ~ 0
 CPLD_OPRIGHT_CLK
-Text Label 9950 2550 2    60   ~ 0
+Text Label 9700 2600 2    60   ~ 0
 CPLD_OPLEFT_CLK
 Wire Wire Line
 	700  6500 1900 6500
