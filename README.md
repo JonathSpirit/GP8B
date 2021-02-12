@@ -38,7 +38,7 @@ Status :
 > Not tested !
 
 Known issues :
-> (Empty)
+> 1 high impact bug, (Please to avoid any problems wait the V5.1 release)
 
 ## Block diagram
 
