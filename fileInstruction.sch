@@ -318,24 +318,10 @@ Text HLabel 9800 5300 2    60   Output ~ 0
 NEXT_IF
 Text HLabel 9800 5500 2    60   Output ~ 0
 NEXT_IFNOT
-Text HLabel 10300 4200 2    60   Output ~ 0
-END_MAXCOUNT
-Text HLabel 10300 4300 2    60   Output ~ 0
-NEXT_AFTERSET
-Text Label 10250 4300 2    60   ~ 0
-COUNTER_1
 Text Label 1500 7650 0    60   ~ 0
 ~COUNTER_RESET
 Text HLabel 1450 7650 0    60   Input ~ 0
 ~COUNTER_RESET
-Text Label 10250 4500 2    60   ~ 0
-NUM_SELECT_0
-Text Label 10250 4600 2    60   ~ 0
-NUM_SELECT_1
-Text HLabel 10300 4500 2    60   Output ~ 0
-NUM_SELECT_0
-Text HLabel 10300 4600 2    60   Output ~ 0
-NUM_SELECT_1
 Text Label 9300 1450 0    60   ~ 0
 I_RAMW
 Text Label 8300 3150 2    60   ~ 0
@@ -392,10 +378,6 @@ Wire Wire Line
 	9300 3250 10100 3250
 Wire Wire Line
 	9300 3450 10100 3450
-Text HLabel 10300 4100 2    60   Output ~ 0
-SYNC_BIT
-Text Label 10250 4100 2    60   ~ 0
-COUNTER_0
 Text HLabel 3150 6700 0    60   Input ~ 0
 BDATASRC_[0..7]
 Entry Wire Line
@@ -478,12 +460,6 @@ Text Label 8300 5300 2    60   ~ 0
 COUNTER_2
 Text Label 8300 5500 2    60   ~ 0
 COUNTER_2
-Text Label 10250 4200 2    60   ~ 0
-COUNTER_4
-Text Label 10250 4700 2    60   ~ 0
-NUM_SELECT_2
-Text HLabel 10300 4700 2    60   Output ~ 0
-NUM_SELECT_2
 Text Label 3950 5950 2    60   ~ 0
 INSTRUCTION_B5
 Text HLabel 10100 3650 2    60   Output ~ 0
@@ -518,22 +494,9 @@ COUNTER_4
 Text Notes 2700 1500 0    60   ~ 0
 COUNTER_4
 NoConn ~ 2650 1500
-Wire Wire Line
-	8300 3850 8200 3850
-Wire Wire Line
-	8200 3750 8200 3850
-Wire Wire Line
-	8200 3750 8300 3750
-NoConn ~ 9300 3850
 Text Notes 2700 1400 0    60   ~ 0
 COUNTER_3
 NoConn ~ 2650 1400
-Wire Wire Line
-	10300 4200 10250 4200
-Wire Wire Line
-	10250 4300 10300 4300
-Wire Wire Line
-	10250 4100 10300 4100
 Wire Wire Line
 	1500 7350 1450 7350
 Wire Wire Line
@@ -542,12 +505,6 @@ Wire Wire Line
 	1450 7550 1500 7550
 Wire Wire Line
 	1500 7650 1450 7650
-Wire Wire Line
-	10250 4500 10300 4500
-Wire Wire Line
-	10250 4600 10300 4600
-Wire Wire Line
-	10250 4700 10300 4700
 Wire Wire Line
 	10050 2950 10100 2950
 $Comp
@@ -849,19 +806,11 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 1800 
 	1    1800 5800
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 3850
 Wire Wire Line
 	8800 4150 8800 4200
-Wire Wire Line
-	8800 4200 8200 4200
 Connection ~ 8800 4200
 Wire Wire Line
 	8800 4200 8800 4250
-Wire Wire Line
-	8200 3850 8200 4200
-Connection ~ 8200 4200
-Wire Wire Line
-	8200 4200 7500 4200
 Wire Wire Line
 	8800 2750 8800 2800
 Wire Wire Line
@@ -1105,6 +1054,57 @@ Wire Wire Line
 Wire Wire Line
 	7550 900  7550 1350
 Connection ~ 7550 1350
+Wire Wire Line
+	10250 4700 10300 4700
+Wire Wire Line
+	10250 4600 10300 4600
+Wire Wire Line
+	10250 4500 10300 4500
+Wire Wire Line
+	10250 4100 10300 4100
+Wire Wire Line
+	10250 4300 10300 4300
+Wire Wire Line
+	10300 4200 10250 4200
+Text HLabel 10300 4700 2    60   Output ~ 0
+NUM_SELECT_2
+Text Label 10250 4700 2    60   ~ 0
+NUM_SELECT_2
+Text Label 10250 4200 2    60   ~ 0
+COUNTER_4
+Text Label 10250 4100 2    60   ~ 0
+COUNTER_0
+Text HLabel 10300 4100 2    60   Output ~ 0
+SYNC_BIT
+Text HLabel 10300 4600 2    60   Output ~ 0
+NUM_SELECT_1
+Text HLabel 10300 4500 2    60   Output ~ 0
+NUM_SELECT_0
+Text Label 10250 4600 2    60   ~ 0
+NUM_SELECT_1
+Text Label 10250 4500 2    60   ~ 0
+NUM_SELECT_0
+Text Label 10250 4300 2    60   ~ 0
+COUNTER_1
+Text HLabel 10300 4300 2    60   Output ~ 0
+NEXT_AFTERSET
+Text HLabel 10300 4200 2    60   Output ~ 0
+END_MAXCOUNT
+NoConn ~ 9300 3850
+Wire Wire Line
+	8200 4200 7500 4200
+Wire Wire Line
+	8800 4200 8200 4200
+Connection ~ 8200 4200
+Wire Wire Line
+	8200 3850 8200 4200
+Wire Wire Line
+	8300 3850 8200 3850
 Wire Bus Line
 	3300 6700 3300 7500
+Wire Wire Line
+	8200 3750 8300 3750
+Connection ~ 8200 3850
+Wire Wire Line
+	8200 3750 8200 3850
 $EndSCHEMATC
