@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "GP8B"
-Date "2020-08-19"
-Rev "V5.0"
+Date "2021-03-04"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -424,9 +424,9 @@ Wire Wire Line
 	4500 2600 4500 2700
 Wire Wire Line
 	5100 2700 4500 2700
-Wire Bus Line
-	1550 4750 1550 5550
 Connection ~ 4500 2700
 Wire Wire Line
 	4500 2700 4500 3950
+Wire Bus Line
+	1550 4750 1550 5550
 $EndSCHEMATC
