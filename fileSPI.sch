@@ -13,8 +13,6 @@ Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6100 2300 0    60   ~ 0
-SPI_MOSI
 Text Label 7500 2300 2    60   ~ 0
 SPI_MISO
 $Comp
@@ -26,17 +24,6 @@ F 1 "74AHCT595" H 8200 3250 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7900 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7900 2700 50  0001 C CNN
 	1    7900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS165 U18
-U 1 1 5DD58078
-P 5600 2900
-F 0 "U18" H 5750 3750 50  0000 C CNN
-F 1 "74HC165" H 5850 3650 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5600 2900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 5600 2900 50  0001 C CNN
-	1    5600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,36 +98,34 @@ Wire Wire Line
 	3150 3650 3150 3600
 Text Label 3650 2300 0    60   ~ 0
 SPI_CFG_~PL
-Text Label 5100 3500 2    60   ~ 0
-SPI_CLK
-Text Label 3650 2600 0    60   ~ 0
+Text Label 3650 2700 0    60   ~ 0
 SPI_CS
 Text Label 7500 2800 2    60   ~ 0
 SPI_CFG_RCLK
 $Comp
 L power:+5V #PWR?
 U 1 1 5DD8BC4C
-P 5600 1900
+P 5650 1750
 AR Path="/5ACA3361/5DD8BC4C" Ref="#PWR?"  Part="1" 
 AR Path="/5DD53CC6/5DD8BC4C" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 5600 1750 50  0001 C CNN
-F 1 "+5V" H 5600 2040 50  0000 C CNN
-F 2 "" H 5600 1900 50  0001 C CNN
-F 3 "" H 5600 1900 50  0001 C CNN
-	1    5600 1900
+F 0 "#PWR0135" H 5650 1600 50  0001 C CNN
+F 1 "+5V" H 5650 1890 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+	1    5650 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DD8C055
-P 5600 4000
+P 5650 3950
 AR Path="/5ACA3361/5DD8C055" Ref="#PWR?"  Part="1" 
 AR Path="/5DD53CC6/5DD8C055" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 5600 3750 50  0001 C CNN
-F 1 "GND" H 5600 3850 50  0000 C CNN
-F 2 "" H 5600 4000 50  0001 C CNN
-F 3 "" H 5600 4000 50  0001 C CNN
-	1    5600 4000
+F 0 "#PWR0136" H 5650 3700 50  0001 C CNN
+F 1 "GND" H 5650 3800 50  0000 C CNN
+F 2 "" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,15 +157,15 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DD8C9C7
-P 5200 1950
+P 4550 3650
 AR Path="/5ACA3361/5DD8C9C7" Ref="C?"  Part="1" 
 AR Path="/5DD53CC6/5DD8C9C7" Ref="C42"  Part="1" 
-F 0 "C42" H 5225 2050 50  0000 L CNN
-F 1 "10nF" H 5225 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5238 1800 50  0001 C CNN
-F 3 "" H 5200 1950 50  0001 C CNN
-	1    5200 1950
-	0    -1   -1   0   
+F 0 "C42" H 4575 3750 50  0000 L CNN
+F 1 "10nF" H 4575 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 3500 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
@@ -196,17 +181,13 @@ F 3 "" H 6800 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5600 3950 5600 3900
+	5650 3900 5650 3850
 Wire Wire Line
-	5600 3950 5600 4000
-Connection ~ 5600 3950
+	5650 3900 5650 3950
+Connection ~ 5650 3900
+Connection ~ 5100 3900
 Wire Wire Line
-	5100 3600 5050 3600
-Wire Wire Line
-	5050 3600 5050 3950
-Connection ~ 5050 3950
-Wire Wire Line
-	5050 3950 5600 3950
+	5100 3900 5650 3900
 Wire Wire Line
 	7900 3500 7900 3450
 Wire Wire Line
@@ -231,30 +212,18 @@ Wire Wire Line
 Text Label 9450 1550 2    60   ~ 0
 SPI_CS
 Wire Wire Line
-	5600 1900 5600 1950
+	5650 1750 5650 1800
 Wire Wire Line
-	5100 2300 4500 2300
+	4550 3900 5100 3900
+Connection ~ 5650 1800
 Wire Wire Line
-	4500 2300 4500 2400
-Wire Wire Line
-	4500 3950 5050 3950
-Wire Wire Line
-	4500 2300 4500 1950
-Wire Wire Line
-	4500 1950 5050 1950
-Connection ~ 4500 2300
-Wire Wire Line
-	5350 1950 5600 1950
-Connection ~ 5600 1950
-Wire Wire Line
-	5600 1950 5600 2000
+	5650 1800 5650 1850
 Text Label 9450 1450 2    60   ~ 0
 SPI_SCLK
 Text Label 9450 1350 2    60   ~ 0
 SPI_MOSI
 Text Label 1500 1450 0    60   ~ 0
 SPI_MISO
-NoConn ~ 6100 2400
 NoConn ~ 8300 3200
 Text HLabel 1450 1450 0    60   Input ~ 0
 SPI_MISO
@@ -364,8 +333,6 @@ Text Label 8300 3000 0    60   ~ 0
 NUMBER_7
 Text Label 7500 2500 2    60   ~ 0
 SPI_CLK
-Text Label 5100 3300 2    60   ~ 0
-SPI_CFG_~PL
 Text Label 2650 2700 2    60   ~ 0
 NUMBER_4
 Text Label 2650 2800 2    60   ~ 0
@@ -374,14 +341,6 @@ Text Label 2650 2900 2    60   ~ 0
 NUMBER_6
 Text Label 2650 3000 2    60   ~ 0
 NUMBER_7
-Text Label 3650 2700 0    60   ~ 0
-BUFF_0
-Text Label 3650 2800 0    60   ~ 0
-BUFF_1
-Text Label 3650 2900 0    60   ~ 0
-BUFF_2
-Text Label 3650 3000 0    60   ~ 0
-BUFF_3
 Text Label 2650 3200 2    60   ~ 0
 BCFG_SPI_CLK
 Wire Wire Line
@@ -397,36 +356,67 @@ Wire Wire Line
 	1950 3300 2650 3300
 Text Label 3650 2400 0    60   ~ 0
 SPI_CFG_RCLK
-Text Label 3650 2500 0    60   ~ 0
+Text Label 3650 2600 0    60   ~ 0
 SPI_SCLK
-Text Label 5100 2800 2    60   ~ 0
-BUFF_0
-Text Label 5100 2900 2    60   ~ 0
-BUFF_1
-Text Label 5100 3000 2    60   ~ 0
-BUFF_2
-Text Label 5100 3100 2    60   ~ 0
-BUFF_3
+$Comp
+L Custom:74HC166 U18
+U 1 1 60417A96
+P 5650 2850
+F 0 "U18" H 5750 3800 50  0000 L CNN
+F 1 "74HC166" H 5750 3700 50  0000 L CNN
+F 2 "" H 5650 2850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT166.pdf" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Text Label 5150 2250 2    60   ~ 0
+NUMBER_0
+Text Label 5150 2350 2    60   ~ 0
+NUMBER_1
+Text Label 5150 2450 2    60   ~ 0
+NUMBER_2
+Text Label 5150 2550 2    60   ~ 0
+NUMBER_3
+Text Label 5150 2650 2    60   ~ 0
+NUMBER_4
+Text Label 5150 2750 2    60   ~ 0
+NUMBER_5
+Text Label 5150 2850 2    60   ~ 0
+NUMBER_6
+Text Label 5150 2950 2    60   ~ 0
+NUMBER_7
+Text Label 5150 3250 2    60   ~ 0
+SPI_CLK
+Text Label 6150 2150 0    60   ~ 0
+SPI_MOSI
 Wire Wire Line
-	5100 2400 4500 2400
-Connection ~ 4500 2400
+	5150 3350 5100 3350
 Wire Wire Line
-	4500 2400 4500 2500
+	5100 3350 5100 3900
 Wire Wire Line
-	5100 2500 4500 2500
-Connection ~ 4500 2500
+	4550 1800 4550 3450
 Wire Wire Line
-	4500 2500 4500 2600
+	4550 3900 4550 3800
 Wire Wire Line
-	5100 2600 4500 2600
-Connection ~ 4500 2600
+	4550 3450 5050 3450
+Connection ~ 4550 3450
 Wire Wire Line
-	4500 2600 4500 2700
+	4550 3450 4550 3500
 Wire Wire Line
-	5100 2700 4500 2700
-Connection ~ 4500 2700
+	5050 3450 5050 3550
 Wire Wire Line
-	4500 2700 4500 3950
+	5050 3550 5150 3550
+Text Label 5150 3150 2    60   ~ 0
+SPI_CFG_~PL
+Text Label 3650 2500 0    60   ~ 0
+SPI_CFG_DS
+Text Label 5150 2150 2    60   ~ 0
+SPI_CFG_DS
+Wire Wire Line
+	4550 1800 5650 1800
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+NoConn ~ 3650 3000
 Wire Bus Line
 	1550 4750 1550 5550
 $EndSCHEMATC

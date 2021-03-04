@@ -12,6 +12,12 @@ K Single Gate NOT AHCTMOS
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
 $ENDCMP
 #
+$CMP 74HC166
+D Shift Register 8-bit, parallel load
+K CMOS SR SR8
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT166.pdf
+$ENDCMP
+#
 $CMP 74LVC1G34
 D Single Buffef Gate, Low-Voltage CMOS
 K Single Gate Buff LVC CMOS
