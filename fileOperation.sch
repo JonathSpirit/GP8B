@@ -809,7 +809,7 @@ U 1 1 5F0E2BDB
 P 8300 1350
 F 0 "J1" H 8272 1232 50  0000 R CNN
 F 1 "ALU_JTAG" H 8272 1323 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8300 1350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8300 1350 50  0001 C CNN
 F 3 "~" H 8300 1350 50  0001 C CNN
 	1    8300 1350
 	-1   0    0    1   

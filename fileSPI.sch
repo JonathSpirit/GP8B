@@ -364,7 +364,7 @@ U 1 1 60417A96
 P 5650 2850
 F 0 "U18" H 5750 3800 50  0000 L CNN
 F 1 "74HC166" H 5750 3700 50  0000 L CNN
-F 2 "" H 5650 2850 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT166.pdf" H 5650 2850 50  0001 C CNN
 	1    5650 2850
 	1    0    0    -1  
