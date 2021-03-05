@@ -77,7 +77,7 @@ F 1 "10nF" H 8525 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 2300 50  0001 C CNN
 F 3 "" H 8500 2450 50  0001 C CNN
 	1    8500 2450
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Text Notes 7450 850  0    60   ~ 0
 BWRITE1_DATA
@@ -105,7 +105,7 @@ F 3 "" H 7200 4850 50  0001 C CNN
 	1    7200 4850
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 3050 0    60   ~ 0
+Text Notes 7450 3050 0    60   ~ 0
 BPCS_DATA
 Text Label 6700 1250 2    60   ~ 0
 NUMBER_0
@@ -609,9 +609,9 @@ Wire Bus Line
 	10700 2150 10650 2150
 Wire Bus Line
 	8300 4350 8250 4350
-Text Label 9750 6050 2    60   ~ 0
+Text Label 9750 6100 2    60   ~ 0
 BPCS_[0..5]
-Text HLabel 9800 6050 2    60   Output ~ 0
+Text HLabel 9800 6100 2    60   Output ~ 0
 BPCS_[0..5]
 Text HLabel 9800 5850 2    60   Output ~ 0
 BWRITE1_[0..7]
@@ -621,7 +621,7 @@ Text Label 9750 5850 2    60   ~ 0
 BWRITE1_[0..7]
 Text Label 9750 5950 2    60   ~ 0
 BWRITE2_[0..7]
-Text HLabel 9800 5750 2    60   Output ~ 0
+Text HLabel 9800 5700 2    60   Output ~ 0
 BJMPSRC_[0..23]
 Wire Wire Line
 	1350 1050 1400 1050
@@ -636,9 +636,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 1650 1400 1650
 Wire Bus Line
-	9750 6050 9800 6050
+	9750 6100 9800 6100
 Wire Bus Line
-	9750 5750 9800 5750
+	9750 5700 9800 5700
 Wire Bus Line
 	9750 5850 9800 5850
 Wire Bus Line
@@ -837,7 +837,7 @@ Text Label 5100 6300 2    60   ~ 0
 BJMPSRC_22
 Text Label 5100 6400 2    60   ~ 0
 BJMPSRC_23
-Text Label 9750 5750 2    60   ~ 0
+Text Label 9750 5700 2    60   ~ 0
 BJMPSRC_[0..23]
 Text Label 6700 4350 2    60   ~ 0
 BPCS_CLK
@@ -929,6 +929,8 @@ Wire Wire Line
 	8500 2250 8500 900 
 Wire Wire Line
 	8500 2600 9600 2600
+Text Notes 4650 850  0    60   ~ 0
+BJMPSRC_DATA
 Wire Bus Line
 	8300 3550 8300 4350
 Wire Bus Line
