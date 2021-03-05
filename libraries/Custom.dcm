@@ -12,10 +12,10 @@ K Single Gate NOT AHCMOS
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
 $ENDCMP
 #
-$CMP 74AHCT1G02
-D Single NOR Gate, AHCTMOS
-K Single Gate NOR AHCTMOS
-F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G02.pdf
+$CMP 74AHC1G08
+D Single AND Gate, AHCMOS
+K Single Gate AND AHCMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08.pdf
 $ENDCMP
 #
 $CMP 74AHCT1G04
