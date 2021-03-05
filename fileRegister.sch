@@ -254,21 +254,21 @@ Text Label 1400 1200 0    60   ~ 0
 BWRITE1_CLK
 Text Label 1400 1300 0    60   ~ 0
 BWRITE2_CLK
-Text Label 1400 1100 0    60   ~ 0
+Text Label 1400 1050 0    60   ~ 0
 BPCS_CLK
-Text Label 1400 1400 0    60   ~ 0
+Text Label 1400 1450 0    60   ~ 0
 BJMPSRC1_CLK
-Text Label 1400 1500 0    60   ~ 0
+Text Label 1400 1550 0    60   ~ 0
 BJMPSRC2_CLK
-Text HLabel 1350 1100 0    60   Input ~ 0
+Text HLabel 1350 1050 0    60   Input ~ 0
 BPCS_CLK
 Text HLabel 1350 1200 0    60   Input ~ 0
 BWRITE1_CLK
 Text HLabel 1350 1300 0    60   Input ~ 0
 BWRITE2_CLK
-Text HLabel 1350 1400 0    60   Input ~ 0
+Text HLabel 1350 1450 0    60   Input ~ 0
 BJMPSRC1_CLK
-Text HLabel 1350 1500 0    60   Input ~ 0
+Text HLabel 1350 1550 0    60   Input ~ 0
 BJMPSRC2_CLK
 Text HLabel 1350 2150 0    60   Input ~ 0
 NUMBER_[0..7]
@@ -589,9 +589,9 @@ Entry Wire Line
 	5150 4100 5250 4200
 Entry Wire Line
 	5150 4200 5250 4300
-Text Label 1400 1600 0    60   ~ 0
+Text Label 1400 1650 0    60   ~ 0
 BJMPSRC3_CLK
-Text HLabel 1350 1600 0    60   Input ~ 0
+Text HLabel 1350 1650 0    60   Input ~ 0
 BJMPSRC3_CLK
 Text Label 1500 2150 0    60   ~ 0
 NUMBER_[0..7]
@@ -624,17 +624,17 @@ BWRITE2_[0..7]
 Text HLabel 9800 5750 2    60   Output ~ 0
 BJMPSRC_[0..23]
 Wire Wire Line
-	1350 1100 1400 1100
+	1350 1050 1400 1050
 Wire Wire Line
 	1350 1200 1400 1200
 Wire Wire Line
 	1350 1300 1400 1300
 Wire Wire Line
-	1350 1400 1400 1400
+	1350 1450 1400 1450
 Wire Wire Line
-	1350 1500 1400 1500
+	1350 1550 1400 1550
 Wire Wire Line
-	1350 1600 1400 1600
+	1350 1650 1400 1650
 Wire Bus Line
 	9750 6050 9800 6050
 Wire Bus Line
@@ -787,154 +787,6 @@ Text Label 6700 2150 2    60   ~ 0
 BWRITE1_CLK
 Text Label 9100 2150 2    60   ~ 0
 BWRITE2_CLK
-Entry Wire Line
-	1700 4600 1600 4700
-Entry Wire Line
-	1700 4700 1600 4800
-Entry Wire Line
-	1700 4800 1600 4900
-Entry Wire Line
-	1700 4900 1600 5000
-Entry Wire Line
-	1700 5000 1600 5100
-Entry Wire Line
-	1700 5100 1600 5200
-Entry Wire Line
-	1700 5200 1600 5300
-Entry Wire Line
-	1700 5300 1600 5400
-Entry Wire Line
-	1700 5400 1600 5500
-Entry Wire Line
-	1700 5500 1600 5600
-Entry Wire Line
-	1700 5600 1600 5700
-Entry Wire Line
-	1700 5700 1600 5800
-Entry Wire Line
-	1700 5800 1600 5900
-Entry Wire Line
-	1700 3800 1600 3900
-Entry Wire Line
-	1700 3900 1600 4000
-Entry Wire Line
-	1700 4000 1600 4100
-Entry Wire Line
-	1700 4100 1600 4200
-Entry Wire Line
-	1700 4200 1600 4300
-Entry Wire Line
-	1700 4300 1600 4400
-Entry Wire Line
-	1700 4400 1600 4500
-Entry Wire Line
-	1700 4500 1600 4600
-Text Label 1600 6050 0    60   ~ 0
-BJMPSRC_[0..23]
-Entry Wire Line
-	1700 3500 1600 3600
-Entry Wire Line
-	1700 3600 1600 3700
-Entry Wire Line
-	1700 3700 1600 3800
-Wire Wire Line
-	1750 3500 1700 3500
-Wire Wire Line
-	1750 3600 1700 3600
-Wire Wire Line
-	1750 3700 1700 3700
-Wire Wire Line
-	1750 3800 1700 3800
-Wire Wire Line
-	1750 3900 1700 3900
-Wire Wire Line
-	1750 4000 1700 4000
-Wire Wire Line
-	1750 4100 1700 4100
-Wire Wire Line
-	1750 4200 1700 4200
-Wire Wire Line
-	1750 4300 1700 4300
-Wire Wire Line
-	1750 4400 1700 4400
-Wire Wire Line
-	1750 4500 1700 4500
-Wire Wire Line
-	1750 4600 1700 4600
-Wire Wire Line
-	1750 4700 1700 4700
-Wire Wire Line
-	1750 4800 1700 4800
-Wire Wire Line
-	1750 4900 1700 4900
-Wire Wire Line
-	1750 5000 1700 5000
-Wire Wire Line
-	1750 5100 1700 5100
-Wire Wire Line
-	1750 5200 1700 5200
-Wire Wire Line
-	1750 5300 1700 5300
-Wire Wire Line
-	1750 5400 1700 5400
-Wire Wire Line
-	1750 5500 1700 5500
-Wire Wire Line
-	1750 5600 1700 5600
-Wire Wire Line
-	1750 5700 1700 5700
-Wire Wire Line
-	1750 5800 1700 5800
-Text HLabel 1500 6050 0    60   Input ~ 0
-BJMPSRC_[0..23]
-Wire Bus Line
-	1600 6050 1500 6050
-Text Label 1750 3600 0    60   ~ 0
-BJMPSRC_1
-Text Label 1750 3700 0    60   ~ 0
-BJMPSRC_2
-Text Label 1750 3800 0    60   ~ 0
-BJMPSRC_3
-Text Label 1750 3900 0    60   ~ 0
-BJMPSRC_4
-Text Label 1750 4000 0    60   ~ 0
-BJMPSRC_5
-Text Label 1750 4100 0    60   ~ 0
-BJMPSRC_6
-Text Label 1750 4200 0    60   ~ 0
-BJMPSRC_7
-Text Label 1750 4300 0    60   ~ 0
-BJMPSRC_8
-Text Label 1750 4400 0    60   ~ 0
-BJMPSRC_9
-Text Label 1750 4500 0    60   ~ 0
-BJMPSRC_10
-Text Label 1750 4600 0    60   ~ 0
-BJMPSRC_11
-Text Label 1750 4700 0    60   ~ 0
-BJMPSRC_12
-Text Label 1750 4800 0    60   ~ 0
-BJMPSRC_13
-Text Label 1750 4900 0    60   ~ 0
-BJMPSRC_14
-Text Label 1750 5000 0    60   ~ 0
-BJMPSRC_15
-Text Label 1750 5100 0    60   ~ 0
-BJMPSRC_16
-Text Label 1750 5200 0    60   ~ 0
-BJMPSRC_17
-Text Label 1750 5300 0    60   ~ 0
-BJMPSRC_18
-Text Label 1750 5400 0    60   ~ 0
-BJMPSRC_19
-Text Label 1750 5500 0    60   ~ 0
-BJMPSRC_20
-Text Label 1750 5600 0    60   ~ 0
-BJMPSRC_21
-Text Label 1750 5700 0    60   ~ 0
-BJMPSRC_22
-Text Label 1750 5800 0    60   ~ 0
-BJMPSRC_23
 Text Label 5100 1300 2    60   ~ 0
 BJMPSRC_0
 Text Label 5100 1400 2    60   ~ 0
@@ -1087,6 +939,4 @@ Wire Bus Line
 	1500 2150 1500 2950
 Wire Bus Line
 	5250 1400 5250 6550
-Wire Bus Line
-	1600 3600 1600 6050
 $EndSCHEMATC
