@@ -215,7 +215,7 @@ F 3 "" H 8800 6300 50  0001 C CNN
 	1    8800 6300
 	1    0    0    -1  
 $EndComp
-Text Label 9750 5300 2    60   ~ 0
+Text Label 10050 5300 2    60   ~ 0
 NEXT_IF
 Text Label 6350 1950 2    60   ~ 0
 I_BJMPSRC1_CLK
@@ -276,7 +276,7 @@ Text Label 8300 5700 2    60   ~ 0
 IF_RESULT
 Text Label 8300 5900 2    60   ~ 0
 ~IF_RESULT
-Text Label 9750 5500 2    60   ~ 0
+Text Label 10050 5500 2    60   ~ 0
 NEXT_IFNOT
 Text Label 9300 5700 0    60   ~ 0
 IF_VALID
@@ -286,17 +286,17 @@ Text Label 8300 5200 2    60   ~ 0
 IF_VALID
 Text Label 8300 5400 2    60   ~ 0
 IFNOT_VALID
-Text HLabel 1450 7350 0    60   Input ~ 0
-GLOBAL_CLK
-Text Label 1500 7350 0    60   ~ 0
-GLOBAL_CLK
 Text HLabel 1450 7450 0    60   Input ~ 0
-IF_RESULT
-Text HLabel 1450 7550 0    60   Input ~ 0
-~IF_RESULT
+GLOBAL_CLK
 Text Label 1500 7450 0    60   ~ 0
+GLOBAL_CLK
+Text HLabel 1450 7600 0    60   Input ~ 0
 IF_RESULT
-Text Label 1500 7550 0    60   ~ 0
+Text HLabel 1450 7700 0    60   Input ~ 0
+~IF_RESULT
+Text Label 1500 7600 0    60   ~ 0
+IF_RESULT
+Text Label 1500 7700 0    60   ~ 0
 ~IF_RESULT
 Text HLabel 6400 1250 2    60   Output ~ 0
 BWRITE1_CLK
@@ -314,13 +314,13 @@ Text HLabel 6400 1950 2    60   Output ~ 0
 BJMPSRC1_CLK
 Text HLabel 6400 1850 2    60   Output ~ 0
 PERIPHERAL_CLK
-Text HLabel 9800 5300 2    60   Output ~ 0
+Text HLabel 10100 5300 2    60   Output ~ 0
 NEXT_IF
-Text HLabel 9800 5500 2    60   Output ~ 0
+Text HLabel 10100 5500 2    60   Output ~ 0
 NEXT_IFNOT
-Text Label 1500 7650 0    60   ~ 0
+Text Label 1500 7250 0    60   ~ 0
 ~COUNTER_RESET
-Text HLabel 1450 7650 0    60   Input ~ 0
+Text HLabel 1450 7250 0    60   Input ~ 0
 ~COUNTER_RESET
 Text Label 9300 1450 0    60   ~ 0
 I_RAMW
@@ -498,13 +498,13 @@ Text Notes 2700 1400 0    60   ~ 0
 COUNTER_3
 NoConn ~ 2650 1400
 Wire Wire Line
-	1500 7350 1450 7350
-Wire Wire Line
 	1500 7450 1450 7450
 Wire Wire Line
-	1450 7550 1500 7550
+	1500 7600 1450 7600
 Wire Wire Line
-	1500 7650 1450 7650
+	1450 7700 1500 7700
+Wire Wire Line
+	1500 7250 1450 7250
 Wire Wire Line
 	10050 2950 10100 2950
 $Comp
@@ -680,12 +680,12 @@ Wire Wire Line
 	1550 3550 1550 3750
 Wire Wire Line
 	1650 3650 1450 3650
-Text Label 1500 7250 0    60   ~ 0
+Text Label 1500 7350 0    60   ~ 0
 PROCESSOR_PAUSE
-Text HLabel 1450 7250 0    60   Input ~ 0
+Text HLabel 1450 7350 0    60   Input ~ 0
 PROCESSOR_PAUSE
 Wire Wire Line
-	1500 7250 1450 7250
+	1500 7350 1450 7350
 Text Label 3300 6700 0    60   ~ 0
 BDATASRC_[0..7]
 Text Label 3450 6900 0    60   ~ 0
@@ -840,10 +840,6 @@ Wire Wire Line
 Connection ~ 8800 6250
 Wire Wire Line
 	8800 6250 8800 6200
-Wire Wire Line
-	9300 5300 9800 5300
-Wire Wire Line
-	9300 5500 9800 5500
 Text Label 6350 3700 2    60   ~ 0
 I_BCFG_SPI_CLK
 $Comp
@@ -1055,56 +1051,63 @@ Wire Wire Line
 	7550 900  7550 1350
 Connection ~ 7550 1350
 Wire Wire Line
-	10250 4700 10300 4700
+	10050 4800 10100 4800
 Wire Wire Line
-	10250 4600 10300 4600
+	10050 4700 10100 4700
 Wire Wire Line
-	10250 4500 10300 4500
+	10050 4600 10100 4600
 Wire Wire Line
-	10250 4100 10300 4100
+	10050 4200 10100 4200
 Wire Wire Line
-	10250 4300 10300 4300
+	10050 4400 10100 4400
 Wire Wire Line
-	10300 4200 10250 4200
-Text HLabel 10300 4700 2    60   Output ~ 0
+	10100 4300 10050 4300
+Text HLabel 10100 4800 2    60   Output ~ 0
 NUM_SELECT_2
-Text Label 10250 4700 2    60   ~ 0
+Text Label 10050 4800 2    60   ~ 0
 NUM_SELECT_2
-Text Label 10250 4200 2    60   ~ 0
+Text Label 10050 4300 2    60   ~ 0
 COUNTER_4
-Text Label 10250 4100 2    60   ~ 0
+Text Label 10050 4200 2    60   ~ 0
 COUNTER_0
-Text HLabel 10300 4100 2    60   Output ~ 0
+Text HLabel 10100 4200 2    60   Output ~ 0
 SYNC_BIT
-Text HLabel 10300 4600 2    60   Output ~ 0
+Text HLabel 10100 4700 2    60   Output ~ 0
 NUM_SELECT_1
-Text HLabel 10300 4500 2    60   Output ~ 0
+Text HLabel 10100 4600 2    60   Output ~ 0
 NUM_SELECT_0
-Text Label 10250 4600 2    60   ~ 0
+Text Label 10050 4700 2    60   ~ 0
 NUM_SELECT_1
-Text Label 10250 4500 2    60   ~ 0
+Text Label 10050 4600 2    60   ~ 0
 NUM_SELECT_0
-Text Label 10250 4300 2    60   ~ 0
+Text Label 10050 4400 2    60   ~ 0
 COUNTER_1
-Text HLabel 10300 4300 2    60   Output ~ 0
+Text HLabel 10100 4400 2    60   Output ~ 0
 NEXT_AFTERSET
-Text HLabel 10300 4200 2    60   Output ~ 0
+Text HLabel 10100 4300 2    60   Output ~ 0
 END_MAXCOUNT
-NoConn ~ 9300 3850
+Text HLabel 1450 7100 0    60   Input ~ 0
+SELECTING_SRC
 Wire Wire Line
-	8200 4200 7500 4200
+	1500 7100 1450 7100
 Wire Wire Line
-	8800 4200 8200 4200
-Connection ~ 8200 4200
+	7500 4200 8800 4200
+Text Label 8300 3750 2    60   ~ 0
+END_ISIMPLE
+Text HLabel 10100 3850 2    60   Output ~ 0
+NEXT_ISIMPLE
+Text Label 10050 3850 2    60   ~ 0
+NEXT_ISIMPLE
 Wire Wire Line
-	8200 3850 8200 4200
+	9300 3850 10100 3850
 Wire Wire Line
-	8300 3850 8200 3850
+	9300 5300 10100 5300
+Wire Wire Line
+	9300 5500 10100 5500
+Text Label 1500 7100 0    60   ~ 0
+SELECTING_SRC
 Wire Bus Line
 	3300 6700 3300 7500
-Wire Wire Line
-	8200 3750 8300 3750
-Connection ~ 8200 3850
-Wire Wire Line
-	8200 3750 8200 3850
+Text Label 8300 3850 2    60   ~ 0
+SELECTING_SRC
 $EndSCHEMATC

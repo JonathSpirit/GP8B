@@ -1099,6 +1099,12 @@ Text Label 2950 1800 0    60   ~ 0
 ~SELECTING_SPI
 Text Label 10200 2100 2    60   ~ 0
 ~SELECTING_SPI
+Text Label 10200 1750 2    60   ~ 0
+~SELECTING_SRC
+Text HLabel 10250 1750 2    60   Output ~ 0
+~SELECTING_SRC
+Wire Wire Line
+	10200 1750 10250 1750
 Wire Bus Line
 	9500 800  9500 1550
 Wire Bus Line
