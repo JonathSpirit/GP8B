@@ -1,6 +1,6 @@
 # GP8B - GProcessor8Bits
 
-Copyright (C) 2020 Guillaume Guillet\
+Copyright (C) 2021 Guillaume Guillet\
 Licensed under CERN-OHL-W v2 or later
 
 <table border="0px">
@@ -29,16 +29,16 @@ G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 <img src="images/GP8B.JPG" alt="GP8B_image" width="400"/> <img src="images/GP8B_3D.png" alt="GP8B_3D_image" width="400"/>
 <img src="images/GP8B_3D_TOP.png" alt="GP8B_3D_TOP_image" width="400"/> <img src="images/GP8B_3D_BOT.png" alt="GP8B_3D_BOT_image" width="400"/>
 
-## Status
+## Stats
 
-Version :
-> GP8B_V5.0
+![version](https://img.shields.io/badge/version-GP8B_5.1-blue)
 
-Status :
-> Not tested !
+![status](https://img.shields.io/badge/status-not_tested-yellow)
 
-Known issues :
-> 1 high impact bug, (Please to avoid any problems wait the V5.1 release)
+![bug](https://img.shields.io/github/issues/JonathSpirit/GP8B/bug)\
+![high_impact](https://img.shields.io/github/issues/JonathSpirit/GP8B/high%20impact)\
+![medium_impact](https://img.shields.io/github/issues/JonathSpirit/GP8B/medium%20impact)\
+![light_impact](https://img.shields.io/github/issues/JonathSpirit/GP8B/light%20impact)
 
 ## Block diagram
 
