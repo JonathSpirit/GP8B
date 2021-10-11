@@ -1,6 +1,25 @@
-GP8B V4.0 :
-    - Intial release
-    
+GP8B V5.1 :
+- GLOBAL
+    - Small cleaning
+
+- DOCUMENTS
+    - Reverse changelog order (new version will be on the first line)
+
+- SCHEMATICS
+    - Better/More decoupling capacitor
+    - Replacing old symbol for IC1 (CPLD)
+    - Fixing the SPI 4bits only issue
+    - ADDSCR_CLK was not sending the right pulses to the motherboard, this is due to
+    old version without any standard in mind.
+
+- PCB
+    - J1 wasn't a male connector
+
+- SCHEMATICS FEATURES
+    - Now if the argument is not SRCVALUE, the processor will not go to the next address (1 byte in memory saved)
+    on big program this improvement is not negligible.
+
+
 GP8B V5.0 :
 - GLOBAL
     - Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
@@ -10,7 +29,7 @@ GP8B V5.0 :
     - Adding waveforms
     - Adding the CHANGELOG file
     - Cleaning
-    
+
 - SCHEMATICS
     - Small symbols changes
     - Removing old symbols
@@ -54,3 +73,7 @@ GP8B V5.0 :
     - Renaming "SPI.sch" to "fileSPI.sch"
 
     - Apply the MM1 memory standard (3.3V I/O changes)
+
+
+GP8B V4.0 :
+    - Intial release

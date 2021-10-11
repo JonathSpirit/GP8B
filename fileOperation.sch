@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "GP8B"
-Date "2020-08-19"
-Rev "V5.0"
+Date "2021-03-04"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -70,23 +70,23 @@ Wire Bus Line
 $Comp
 L power:+3.3V #PWR0122
 U 1 1 5CDC53C3
-P 5400 1000
-F 0 "#PWR0122" H 5400 850 50  0001 C CNN
-F 1 "+3.3V" H 5400 1140 50  0000 C CNN
-F 2 "" H 5400 1000 50  0001 C CNN
-F 3 "" H 5400 1000 50  0001 C CNN
-	1    5400 1000
+P 5400 1200
+F 0 "#PWR0122" H 5400 1050 50  0001 C CNN
+F 1 "+3.3V" H 5400 1340 50  0000 C CNN
+F 2 "" H 5400 1200 50  0001 C CNN
+F 3 "" H 5400 1200 50  0001 C CNN
+	1    5400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5CDF571B
-P 5200 6600
-F 0 "#PWR0124" H 5200 6350 50  0001 C CNN
-F 1 "GND" H 5200 6450 50  0000 C CNN
-F 2 "" H 5200 6600 50  0001 C CNN
-F 3 "" H 5200 6600 50  0001 C CNN
-	1    5200 6600
+P 5200 6350
+F 0 "#PWR0124" H 5200 6100 50  0001 C CNN
+F 1 "GND" H 5200 6200 50  0000 C CNN
+F 2 "" H 5200 6350 50  0001 C CNN
+F 3 "" H 5200 6350 50  0001 C CNN
+	1    5200 6350
 	1    0    0    -1  
 $EndComp
 Text HLabel 1300 1950 0    60   Input ~ 0
@@ -397,6 +397,8 @@ $Comp
 L FPGA_Xilinx:XC2C256-VQ100 IC1
 U 1 1 5ECADF9D
 P 5200 3800
+AR Path="/5ECADF9D" Ref="IC1"  Part="1" 
+AR Path="/5AA18AD6/5ECADF9D" Ref="IC1"  Part="1" 
 F 0 "IC1" H 5700 6250 50  0000 C CNN
 F 1 "XC2C256-VQ100" H 4300 6250 50  0000 C CNN
 F 2 "Package_QFP:VQFP-100_14x14mm_P0.5mm" H 5200 3800 50  0001 C CNN
@@ -404,145 +406,106 @@ F 3 "" H 5200 3800 50  0001 C CNN
 	1    5200 3800
 	1    0    0    -1  
 $EndComp
-Text Label 4050 2450 2    60   ~ 0
+Text Label 4200 2400 2    60   ~ 0
 DLEFT_0
-Text Label 4050 2550 2    60   ~ 0
+Text Label 4200 2500 2    60   ~ 0
 DLEFT_1
-Text Label 4050 2650 2    60   ~ 0
+Text Label 4200 2600 2    60   ~ 0
 DLEFT_2
-Text Label 4050 2750 2    60   ~ 0
+Text Label 4200 2700 2    60   ~ 0
 DLEFT_3
-Text Label 4050 2850 2    60   ~ 0
+Text Label 4200 2800 2    60   ~ 0
 DLEFT_4
-Text Label 4050 2950 2    60   ~ 0
+Text Label 4200 2900 2    60   ~ 0
 DLEFT_5
-Text Label 4050 3050 2    60   ~ 0
+Text Label 4200 3000 2    60   ~ 0
 DLEFT_6
-Text Label 4050 3150 2    60   ~ 0
+Text Label 4200 3100 2    60   ~ 0
 DLEFT_7
-Text Label 6350 4450 0    60   ~ 0
+Text Label 6200 4500 0    60   ~ 0
 DRIGHT_0
-Text Label 6350 4550 0    60   ~ 0
+Text Label 6200 4600 0    60   ~ 0
 DRIGHT_1
-Text Label 6350 4650 0    60   ~ 0
+Text Label 6200 4700 0    60   ~ 0
 DRIGHT_2
-Text Label 6350 4750 0    60   ~ 0
+Text Label 6200 4800 0    60   ~ 0
 DRIGHT_3
-Text Label 6350 4850 0    60   ~ 0
+Text Label 6200 4900 0    60   ~ 0
 DRIGHT_4
-Text Label 6350 4950 0    60   ~ 0
+Text Label 6200 5000 0    60   ~ 0
 DRIGHT_5
-Text Label 6350 5050 0    60   ~ 0
+Text Label 6200 5100 0    60   ~ 0
 DRIGHT_6
-Text Label 6350 5150 0    60   ~ 0
+Text Label 6200 5200 0    60   ~ 0
 DRIGHT_7
-Text Label 4050 4450 2    60   ~ 0
+Text Label 4200 4500 2    60   ~ 0
 OPCS_0
-Text Label 4050 4550 2    60   ~ 0
+Text Label 4200 4600 2    60   ~ 0
 OPCS_1
-Text Label 4050 4650 2    60   ~ 0
+Text Label 4200 4700 2    60   ~ 0
 OPCS_2
-Text Label 4050 4750 2    60   ~ 0
+Text Label 4200 4800 2    60   ~ 0
 OPCS_3
-Text Label 4050 4850 2    60   ~ 0
+Text Label 4200 4900 2    60   ~ 0
 OPCS_4
-Text Label 4050 4950 2    60   ~ 0
+Text Label 4200 5000 2    60   ~ 0
 OPCS_5
-Text Label 4050 5050 2    60   ~ 0
+Text Label 4200 5100 2    60   ~ 0
 OPCS_6
-Text Label 4050 5150 2    60   ~ 0
+Text Label 4200 5200 2    60   ~ 0
 OPCS_7
 Wire Wire Line
-	5400 1100 5400 1050
+	5400 1300 5400 1250
 Wire Wire Line
-	5400 1050 5500 1050
+	5400 1250 5500 1250
 Wire Wire Line
-	5500 1050 5500 1100
-Connection ~ 5400 1050
+	5500 1250 5500 1300
+Connection ~ 5400 1250
 Wire Wire Line
-	5400 1050 5400 1000
+	5400 1250 5400 1200
 Wire Wire Line
-	5500 1050 5600 1050
+	5500 1250 5600 1250
 Wire Wire Line
-	5600 1050 5600 1100
-Connection ~ 5500 1050
+	5600 1250 5600 1300
+Connection ~ 5500 1250
 Wire Wire Line
-	5400 1050 5300 1050
+	5400 1250 5300 1250
 Wire Wire Line
-	5300 1050 5300 1100
+	5300 1250 5300 1300
 Wire Wire Line
-	5300 1050 5200 1050
+	5300 1250 5200 1250
 Wire Wire Line
-	5200 1050 5200 1100
-Connection ~ 5300 1050
+	5200 1250 5200 1300
+Connection ~ 5300 1250
 Wire Wire Line
-	5200 1050 5000 1050
+	5200 1250 5000 1250
 Wire Wire Line
-	5000 1050 5000 1100
-Connection ~ 5200 1050
+	5000 1250 5000 1300
+Connection ~ 5200 1250
 $Comp
 L power:+1V8 #PWR015
 U 1 1 5ED346E8
-P 4750 1000
-F 0 "#PWR015" H 4750 850 50  0001 C CNN
-F 1 "+1V8" H 4765 1173 50  0000 C CNN
-F 2 "" H 4750 1000 50  0001 C CNN
-F 3 "" H 4750 1000 50  0001 C CNN
-	1    4750 1000
+P 4750 1200
+F 0 "#PWR015" H 4750 1050 50  0001 C CNN
+F 1 "+1V8" H 4765 1373 50  0000 C CNN
+F 2 "" H 4750 1200 50  0001 C CNN
+F 3 "" H 4750 1200 50  0001 C CNN
+	1    4750 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1000 4750 1050
+	4750 1200 4750 1250
 Wire Wire Line
-	4750 1050 4700 1050
+	4750 1250 4700 1250
 Wire Wire Line
-	4700 1050 4700 1100
+	4700 1250 4700 1300
 Wire Wire Line
-	4750 1050 4800 1050
+	4750 1250 4800 1250
 Wire Wire Line
-	4800 1050 4800 1100
-Connection ~ 4750 1050
+	4800 1250 4800 1300
+Connection ~ 4750 1250
 Wire Wire Line
-	4850 6500 4850 6550
-Wire Wire Line
-	4850 6550 4950 6550
-Wire Wire Line
-	5200 6550 5200 6600
-Wire Wire Line
-	4950 6500 4950 6550
-Connection ~ 4950 6550
-Wire Wire Line
-	4950 6550 5050 6550
-Wire Wire Line
-	5050 6550 5050 6500
-Connection ~ 5050 6550
-Wire Wire Line
-	5050 6550 5150 6550
-Wire Wire Line
-	5150 6500 5150 6550
-Connection ~ 5150 6550
-Wire Wire Line
-	5150 6550 5200 6550
-Wire Wire Line
-	5200 6550 5250 6550
-Wire Wire Line
-	5250 6550 5250 6500
-Connection ~ 5200 6550
-Wire Wire Line
-	5250 6550 5350 6550
-Wire Wire Line
-	5350 6550 5350 6500
-Connection ~ 5250 6550
-Wire Wire Line
-	5350 6550 5450 6550
-Wire Wire Line
-	5450 6550 5450 6500
-Connection ~ 5350 6550
-Wire Wire Line
-	5450 6550 5550 6550
-Wire Wire Line
-	5550 6550 5550 6500
-Connection ~ 5450 6550
+	5200 6300 5200 6350
 Text Label 9700 4200 2    60   ~ 0
 DLEFT_0
 Text Label 10200 4100 0    60   ~ 0
@@ -607,95 +570,95 @@ Text Label 9700 2700 2    60   ~ 0
 BOPRESULT_6
 Text Label 10200 2600 0    60   ~ 0
 BOPRESULT_7
-Text Label 6350 2050 0    60   ~ 0
+Text Label 6200 2100 0    60   ~ 0
 UNUSED_A0
-Text Label 6350 2150 0    60   ~ 0
+Text Label 6200 2200 0    60   ~ 0
 UNUSED_A1
-Text Label 6350 2250 0    60   ~ 0
+Text Label 6200 2300 0    60   ~ 0
 UNUSED_A2
-Text Label 6350 2350 0    60   ~ 0
+Text Label 6200 2400 0    60   ~ 0
 UNUSED_A3
-Text Label 6350 2450 0    60   ~ 0
+Text Label 6200 2500 0    60   ~ 0
 UNUSED_A4
-Text Label 6350 2550 0    60   ~ 0
+Text Label 6200 2600 0    60   ~ 0
 UNUSED_A5
-Text Label 6350 2650 0    60   ~ 0
+Text Label 6200 2700 0    60   ~ 0
 UNUSED_A6
-Text Label 6350 2750 0    60   ~ 0
+Text Label 6200 2800 0    60   ~ 0
 UNUSED_A7
-Text Label 6350 3250 0    60   ~ 0
+Text Label 6200 3300 0    60   ~ 0
 UNUSED_B0
-Text Label 6350 3350 0    60   ~ 0
+Text Label 6200 3400 0    60   ~ 0
 UNUSED_B1
-Text Label 6350 3450 0    60   ~ 0
+Text Label 6200 3500 0    60   ~ 0
 UNUSED_B2
-Text Label 6350 3550 0    60   ~ 0
+Text Label 6200 3600 0    60   ~ 0
 UNUSED_B3
-Text Label 6350 3650 0    60   ~ 0
+Text Label 6200 3700 0    60   ~ 0
 UNUSED_B4
-Text Label 6350 3750 0    60   ~ 0
+Text Label 6200 3800 0    60   ~ 0
 UNUSED_B5
-Text Label 6350 3850 0    60   ~ 0
+Text Label 6200 3900 0    60   ~ 0
 UNUSED_B6
-Text Label 6350 3950 0    60   ~ 0
+Text Label 6200 4000 0    60   ~ 0
 UNUSED_B7
-Text Label 4050 5350 2    60   ~ 0
+Text Label 4200 5400 2    60   ~ 0
 UNUSED_C0
-Text Label 4050 5450 2    60   ~ 0
+Text Label 4200 5500 2    60   ~ 0
 UNUSED_C1
-Text Label 4050 5550 2    60   ~ 0
+Text Label 4200 5600 2    60   ~ 0
 UNUSED_C2
-Text Label 4050 5650 2    60   ~ 0
+Text Label 4200 5700 2    60   ~ 0
 UNUSED_C3
-Text Label 4050 5750 2    60   ~ 0
+Text Label 4200 5800 2    60   ~ 0
 UNUSED_C4
-Text Label 4050 5850 2    60   ~ 0
+Text Label 4200 5900 2    60   ~ 0
 UNUSED_C5
-Text Label 4050 5950 2    60   ~ 0
+Text Label 4200 6000 2    60   ~ 0
 UNUSED_C6
-Text Label 4050 6050 2    60   ~ 0
+Text Label 4200 6100 2    60   ~ 0
 UNUSED_C7
-Text Label 4050 2350 2    60   ~ 0
+Text Label 4200 2300 2    60   ~ 0
 UNUSED_D0
-Text Label 4050 2250 2    60   ~ 0
+Text Label 4200 2200 2    60   ~ 0
 UNUSED_D1
-Text Label 4050 2150 2    60   ~ 0
+Text Label 4200 2100 2    60   ~ 0
 UNUSED_D2
-Text Label 4050 4350 2    60   ~ 0
+Text Label 4200 4400 2    60   ~ 0
 UNUSED_D3
-Text Label 6350 6050 0    60   ~ 0
+Text Label 6200 6100 0    60   ~ 0
 BOPRESULT_0
-Text Label 6350 4350 0    60   ~ 0
+Text Label 6200 4400 0    60   ~ 0
 BOPRESULT_1
-Text Label 6350 5950 0    60   ~ 0
+Text Label 6200 6000 0    60   ~ 0
 BOPRESULT_2
-Text Label 6350 4250 0    60   ~ 0
+Text Label 6200 4300 0    60   ~ 0
 BOPRESULT_3
-Text Label 4050 2050 2    60   ~ 0
+Text Label 4200 2000 2    60   ~ 0
 BOPRESULT_4
-Text Label 6350 5550 0    60   ~ 0
+Text Label 6200 5600 0    60   ~ 0
 BOPRESULT_5
-Text Label 4050 4050 2    60   ~ 0
+Text Label 4200 4000 2    60   ~ 0
 BOPRESULT_6
-Text Label 4050 3750 2    60   ~ 0
+Text Label 4200 3700 2    60   ~ 0
 BOPRESULT_7
-NoConn ~ 6350 2850
-NoConn ~ 6350 2950
-NoConn ~ 6350 3050
-NoConn ~ 6350 3150
-NoConn ~ 6350 4150
-NoConn ~ 6350 5250
-NoConn ~ 6350 5350
-NoConn ~ 6350 5450
-NoConn ~ 6350 5650
-NoConn ~ 6350 5750
-NoConn ~ 6350 5850
-NoConn ~ 4050 5250
-NoConn ~ 4050 3250
-NoConn ~ 4050 3350
-NoConn ~ 4050 3450
-NoConn ~ 4050 3550
-NoConn ~ 4050 3650
+NoConn ~ 6200 2900
+NoConn ~ 6200 3000
+NoConn ~ 6200 3100
+NoConn ~ 6200 3200
+NoConn ~ 6200 4200
+NoConn ~ 6200 5300
+NoConn ~ 6200 5400
+NoConn ~ 6200 5500
+NoConn ~ 6200 5700
+NoConn ~ 6200 5800
+NoConn ~ 6200 5900
+NoConn ~ 4200 5300
+NoConn ~ 4200 3200
+NoConn ~ 4200 3300
+NoConn ~ 4200 3400
+NoConn ~ 4200 3500
+NoConn ~ 4200 3600
 Wire Wire Line
 	9550 4950 9550 4900
 Connection ~ 9550 4900
@@ -846,7 +809,7 @@ U 1 1 5F0E2BDB
 P 8300 1350
 F 0 "J1" H 8272 1232 50  0000 R CNN
 F 1 "ALU_JTAG" H 8272 1323 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8300 1350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8300 1350 50  0001 C CNN
 F 3 "~" H 8300 1350 50  0001 C CNN
 	1    8300 1350
 	-1   0    0    1   
@@ -874,13 +837,13 @@ Wire Wire Line
 	8000 950  8000 1050
 Wire Wire Line
 	8000 1050 8100 1050
-Text Label 6350 1700 0    60   ~ 0
+Text Label 6200 1700 0    60   ~ 0
 TCK
-Text Label 6350 1600 0    60   ~ 0
+Text Label 6200 1600 0    60   ~ 0
 TDI
-Text Label 6350 1500 0    60   ~ 0
+Text Label 6200 1500 0    60   ~ 0
 TMS
-Text Label 6350 1800 0    60   ~ 0
+Text Label 6200 1800 0    60   ~ 0
 TDO
 $Comp
 L Custom:TPS7A0518PDBZR U28
@@ -1325,9 +1288,9 @@ Wire Wire Line
 	1900 6550 1900 6500
 Connection ~ 1900 6500
 NoConn ~ 2400 6250
-Text Label 4050 4200 2    60   ~ 0
+Text Label 4200 4200 2    60   ~ 0
 CPLD_OPLEFT_CLK
-Text Label 4050 3950 2    60   ~ 0
+Text Label 4200 3900 2    60   ~ 0
 CPLD_OPRIGHT_CLK
 Wire Wire Line
 	700  6500 700  5550
@@ -1343,7 +1306,7 @@ Wire Wire Line
 Connection ~ 700  5550
 Wire Wire Line
 	700  5550 700  5450
-Text Label 4050 3850 2    60   ~ 0
+Text Label 4200 3800 2    60   ~ 0
 CPLD_OPCHOOSE_CLK
 Text Label 10200 2500 0    60   ~ 0
 CPLD_OPCHOOSE_CLK

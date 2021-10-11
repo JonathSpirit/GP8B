@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "GP8B"
-Date "2020-08-19"
-Rev "V5.0"
+Date "2021-03-04"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -172,8 +172,8 @@ $Comp
 L Device:C C36
 U 1 1 5B0E7716
 P 7150 1100
-F 0 "C36" H 7175 1200 50  0000 L CNN
-F 1 "10nF" H 7175 1000 50  0000 L CNN
+F 0 "C36" H 7150 1200 50  0000 L CNN
+F 1 "100nF" H 7175 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 950 50  0001 C CNN
 F 3 "" H 7150 1100 50  0001 C CNN
 	1    7150 1100
@@ -183,8 +183,8 @@ $Comp
 L Device:C C38
 U 1 1 5B0E7789
 P 8450 1100
-F 0 "C38" H 8475 1200 50  0000 L CNN
-F 1 "10nF" H 8475 1000 50  0000 L CNN
+F 0 "C38" H 8450 1200 50  0000 L CNN
+F 1 "100nF" H 8475 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8488 950 50  0001 C CNN
 F 3 "" H 8450 1100 50  0001 C CNN
 	1    8450 1100

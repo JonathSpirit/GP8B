@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "GP8B"
-Date "2020-08-19"
-Rev "V5.0"
+Date "2021-03-04"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -1099,6 +1099,12 @@ Text Label 2950 1800 0    60   ~ 0
 ~SELECTING_SPI
 Text Label 10200 2100 2    60   ~ 0
 ~SELECTING_SPI
+Text Label 10200 1750 2    60   ~ 0
+~SELECTING_SRC
+Text HLabel 10250 1750 2    60   Output ~ 0
+~SELECTING_SRC
+Wire Wire Line
+	10200 1750 10250 1750
 Wire Bus Line
 	9500 800  9500 1550
 Wire Bus Line
