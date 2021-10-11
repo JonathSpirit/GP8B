@@ -33,7 +33,7 @@ G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
 ![version](https://img.shields.io/badge/version-GP8B_5.1-blue)
 
-![status](https://img.shields.io/badge/status-not_tested-yellow)
+![status](https://img.shields.io/badge/status-tested/stable-green)
 
 ![bug](https://img.shields.io/github/issues/JonathSpirit/GP8B/bug)\
 ![high_impact](https://img.shields.io/github/issues/JonathSpirit/GP8B/high%20impact)\
