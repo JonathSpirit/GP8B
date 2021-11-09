@@ -21,7 +21,7 @@ for applicable conditions.
 </tr>
 </table>
 
-Made with [Kicad](https://kicad-pcb.org/)
+Made with [Kicad](https://kicad.org/)
 
 ## Description
 G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
