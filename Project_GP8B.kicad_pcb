@@ -7,10 +7,10 @@
   (paper "A4")
   (title_block
     (title "GP8B")
-    (date "2021-05-28")
-    (rev "V5.1")
+    (date "2022-07-08")
+    (rev "V6.0")
     (company "Guillaume Guillet")
-    (comment 1 "Copyright Guillaume Guillet 2020")
+    (comment 1 "Copyright Guillaume Guillet 2022")
     (comment 2 "Licensed under CERN-OHL-W v2 or later")
   )
 

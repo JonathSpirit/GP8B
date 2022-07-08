@@ -1,6 +1,6 @@
 # GP8B - GProcessor8Bits
 
-Copyright (C) 2021 Guillaume Guillet\
+Copyright (C) 2022 Guillaume Guillet\
 Licensed under CERN-OHL-W v2 or later
 
 <table border="0px">
@@ -31,9 +31,9 @@ G_Processor8Bits is a homemade, without any microcontroller, 8bits processor.
 
 ## Stats
 
-![version](https://img.shields.io/badge/version-GP8B_5.1-blue)
+![version](https://img.shields.io/badge/version-GP8B_6.0-blue)
 
-![status](https://img.shields.io/badge/status-tested/stable-green)
+![status](https://img.shields.io/badge/status-not%20tested-red)
 
 ![bug](https://img.shields.io/github/issues/JonathSpirit/GP8B/bug)\
 ![high_impact](https://img.shields.io/github/issues/JonathSpirit/GP8B/high%20impact)\
