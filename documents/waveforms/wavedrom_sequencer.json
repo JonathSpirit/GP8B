@@ -1,19 +1,21 @@
 {signal: [
-  {name: 'GLOBAL_CLK', 		wave:'lP........', node: '....a'},
+  {name: 'GLOBAL_CLK', 		wave:'lP...........|', node: 'a....c'},
   {},
-  {name: 'COUNTER_OUT', 	wave:'==========', data: '0 1 2 3 4 0 1 2 3 4'},
-  {name: 'COUNTER_OUT_0', 	wave:'lhlhl.hlhl'},
-  {name: 'COUNTER_OUT_1', 	wave:'l.h.l..h.l'},
+  {name: 'SEQ_COUNTER', 	wave:'=============|', data: '0 1 2 3 4 0 1 2 3 4 5 6 0'},
   {},
-  {name: 'COUNTER_0', 		wave:'hl..h.l..h'},
-  {name: 'COUNTER_1', 		wave:'lhl...hl..'},
-  {name: 'COUNTER_2', 		wave:'l.hl...hl.'},
-  {name: 'COUNTER_4', 		wave:'l...hl...h'},
+  {name: 'SEQUENCE_0', 		wave:'10...10.....1|'},
+  {name: 'SEQUENCE_1', 		wave:'010...10.....|'},
+  {name: 'SEQUENCE_2', 		wave:'0.10...10....|'},
+  {name: 'SEQUENCE_3', 		wave:'0..10...10...|'},
+  {name: 'SEQUENCE_4', 		wave:'0...10...10..|'},
+  {name: 'SEQUENCE_5', 		wave:'0.........10.|'},
+  {name: 'SEQUENCE_6', 		wave:'0..........10|'},
   {},
-  {name: '~COUNTER_RESET', 	wave:'h...01...0', node: '.....b'},
+  {name: '~MAIN_COUNTER_RESET', 	wave:'1...01.....01|', node: '.....b......d'},
 ],
 edge: [
-  'a~b Reset for the next pulse'
+  'a~b Complete sequence for simple instruction',
+  'c~d Complete sequence for complex instruction'
 ],
 head:{
    text:'Sequencer',
