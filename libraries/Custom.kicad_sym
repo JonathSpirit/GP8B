@@ -569,17 +569,17 @@
       )
     )
   )
-  (symbol "74LVC163" (in_bom yes) (on_board yes)
+  (symbol "74LV163" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -7.62 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LVC163" (at -7.62 -16.51 0)
+    (property "Value" "74LV163" (at -7.62 -16.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC163.pdf" (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv163a.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "CMOS CNT CNT4" (at 0 0 0)
@@ -591,7 +591,7 @@
     (property "ki_fp_filters" "SO?16*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "74LVC163_1_0"
+    (symbol "74LV163_1_0"
       (pin input line (at -12.7 -12.7 0) (length 5.08)
         (name "~{MR}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -657,7 +657,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LVC163_1_1"
+    (symbol "74LV163_1_1"
       (rectangle (start -7.62 15.24) (end 7.62 -15.24)
         (stroke (width 0.254) (type default))
         (fill (type background))
