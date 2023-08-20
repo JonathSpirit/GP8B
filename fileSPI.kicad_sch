@@ -1136,7 +1136,7 @@
     (property "Value" "74AHC273" (at 86.36 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (at 80.01 71.12 0)
+    (property "Footprint" "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" (at 80.01 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" (at 80.01 71.12 0)
